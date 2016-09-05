@@ -1,0 +1,460 @@
+\documentclass[letterpaper,openright,10pt,oneside]{report}
+
+\usepackage[spanish,activeacute]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[letterpaper,width=150mm,top=25mm,bottom=25mm]{geometry}
+\usepackage{fancyhdr}
+\usepackage{verbatim}
+\pagestyle{fancy}
+
+\fancyhead{}
+\fancyhead[RO,LE]{Titulo}
+\fancyfoot{}
+\fancyfoot[LE,RO]{\thepage}
+\fancyfoot[LO,CE]{Parte \thepart}
+\fancyfoot[CO,RE]{Ignacio Jara}
+
+
+
+%Gummi|065|=)
+\title{\textbf{Sistema de alertas en tiempo real para organizaciones relacionadas con mascotas}}
+\author{Ignacio Jara}
+\date{\today}
+\begin{document}
+\maketitle
+
+
+\part{Prop'osito del documento}
+	\chapter*{Resumen ejecutivo}
+	
+	Actualmente cada entidad dedicada a las mascotas, ya sean organizaciones sin fines de lucro como centros de ayuda a animales, como tambien veterinarias particulares, registran los datos recopilados en libros, planillas excel y, en muy pocos casos, en sistemas computacionales adquiridos o diseñados por ellos mismos. Todos carecen de una funcionalidad vital, no estan interconectados entre si; No existe una base de datos general donde sean inscritos estos animales, ni sus dueños, ni la relación que existe entre ellos.
+	Además, los datos alojados en estos archivos, son propiedad del que guardó la información, por lo tanto, los dueños de sus animales, no pueden saber que es lo que se hace con esa información ni el tratamiento que se le realiza.
+	
+	El objetivo de este proyecto, es entregar un repositorio en el cual, las personas y organizaciones interesadas puedan depositar esta información y tenerla a mano al momento que quieran, además de acercar esta información a los dueños de mascotas, entregando información relevante para el cuidado del animal.
+	
+	El generar un nexo entre el amo y las cientos de organizaciones que se dedican a proteger y dar salud no estaría completo si el software no entregara la posibilidad de contactarse directamente con ellas, esto se logrará gracias a un sistema de alertas en tiempo real, que crea una real conexión en tiempos de crisis. Si se necesita con urgencia la ayuda de un veterinario, la plataforma entregará diversas alternativas cercanas a la ubicación entregada, no solo entregando información de contacto, sinó que una linea directa con la entidad en cuestión, mandando un mensaje de alerta para programar una cita o para recomendar un chequeo anual.
+	
+	Para lograr este objetivo, es importante transmitir seguridad y no trabajar solo con una organización en cuestión, por eso es imperativo que este negocio funcione como una organización sin fines de lucro, para trabajar sin presiones de animalistas, ni particulares. Permite que las ganancias sean reinvertidas, mejorando la expansión y la organización no pierde nunca su foco.
+	
+	Solo miembros autorizados podrán acceder a la información almacenada, así como informes generados en base a estos datos, que serán vitales para generar una ficha que puede ser utilizada en el veterinario, como para cambiar los habitos alimenticios de los animales por parte de sus amos.
+	
+	Sin embargo, este es un proyecto social, que pone en las manos de la comunidad un sistema de inscripción y control animal, que tiene que ser modificado en el tiempo, en base a las cambiantes necesidades del medio; Por lo tanto, no solo la organización debe ser trasparente, sinó que el codigo fuente del sistema tambien lo debe ser. Un proyecto basado en software libre extiende la vida util de la plataforma hasta que esta deja de ser relevante, creando nuevas interfaces y mejorando el codigo constantemente, permitiendo a esta entidad perdurar en el tiempo entregar un servicio por el mayor tiempo posible.
+	
+	\chapter*{Objetivo del documento}
+	Principalmente, en este documento se detallará el plan para formar una organización sin fines de lucro, sus necesidades y procesos, para sostener el proyecto contenido en esta tesis, que es la de formar un sistema automatizado de inscripción y control animal.
+	
+	Se detalla el alcance que posee el proyecto, junto a las metas y objetivos que este debe cumplir para el pleno funcionamiento de la organización, se obtienen los requerimientos de las empresas interesadas en esta plataforma, que principalmente son organizaciones sin fines de lucro relacionadas con animales, como tambien privados como veterinarias y centros de cuidado a mascotas. Con estos datos, se pueden diagramar los procesos que realizará el software, para suplir estas necesidades, junto con el diseño a la base de datos, que guardará los datos para ser utilizados en la plataforma.
+	
+	A su vez, se detallan los procesos que realiza la organización, como obtiene recursos, opera y reinvierte sus ganancias para mejorar su alcance. Se especifican los roles que existen y como operan entre si, como tambien el modelo de negocio, detallando los potenciales riesgos que pueden aparecer durante el tiempo de vida del proyecto y los costos asociados en la creación y mantención de la plataforma.
+	
+	
+	El plan de negocio entrega la respuesta a como tratar con este tipo de organizaciones, como agregar valor a nuestro producto y a las entidades interesadas en el, y detallar los puntos positivos que son necesario explotar y los puntos negativos que quedan por mejorar. Permite detallar el mercado objetivo al cual apuntamos y todos los procesos a realizar para darle forma a la organización.
+	
+	Luego se detallan las especificaciones del software y el hardware para el correcto funcionamiento del aplicativo, la forma en la cual los usuarios interactuarán con ella y los GAP's que puedan aparecer durante el desarrollo de esta; Se documentan los requisitos funcionales y no funcionales, ademas de los pasos a seguir usando metodología.
+	
+	Al finalizar el documento estan las conclusiones de este caso, que de una u otra forma, permiten comprender el significado del proyecto y las implicancias que tiene este en la sociedad.
+	\chapter*{Agradecimientos}
+\begin{flushright}
+\textit{A mi padre}
+\end{flushright}
+
+\tableofcontents
+
+
+
+\part{Descripci'on del proyecto}
+	\chapter{Marco general del proyecto}
+		\section{Misi'on del proyecto}
+		
+	Proveer un sistema confiable y seguro, para que los dueños de mascotas ingresen su información personal y la de los animales que tienen a su cargo. El objetivo es llegar a la mayor cantidad de personas y/o organizaciones que esten interesadas en el ambiente(Organizaciones sin fines de lucro relacionadas a los animales, veterinarias, zoologicos), para conseguirlo, es imperativo que el proyecto provenga de una organización sin fines de lucro y orientada al ambiente animalista.
+		
+			Ofrecer un servicio en la nube, para que los dueños de animales se inscriban y coloquen información de sus mascotas(Nombre, edad, fecha de nacimiento, peso, estatura), ademas de ingresar los datos de su alimentación y actividad fisica. El sistema recaba esta información para generar un perfil unico para cada usuario de esta aplicación, con el fin de ofrecer productos e información relacionada a través de alertas.
+			Existirán tres tipos de alertas, las que ofrecen productos relacionados, las que ofrecen información en tiempon real y las alertas de emergencia, que permiten comunicarse y obtener información en tiempo real, con los usuarios que están conectados en ese momento a la aplicación.
+			Desde el otro extremo, existen las organizaciones relacionadas a la entrega de productos y servicios que necesitan guardar información sobre el animales u ofrecer un producto relacionado. Estas tendrán la posibilidad de almacenar los datos y ligarlas a un dueño en particular, para mantener un control en tiempo real, y el control de esta información será permitido a través del dueño del animal. Esto asegurará un acceso a la información con permiso previo de su dueño.
+		En resumen,la aplicación servirá de puente entre organizaciones animalistas, veterinarias y dueños, entregando información sobre localización de ayuda y conversaciones en tiempo real. Tambien generará alertas sobre controles veterinarios y ventas de productos.
+	
+		\section{Lineamientos estrat'egicos}
+\begin{itemize}
+	\item Proteger a las mascotas.\newline
+	Entregar las herramientas para el cuidado de las mascotas es crucial para el proyecto, ya que generar informes y alertas tempranas mejorará la calidad de vida del animal, ayudando a su protección.
+	\item Generar conciencia sobre la tenencia animal.\newline
+	Cuando la gente se interesa, otras personas de forma natural se sienten atraidas a tener un mayor impacto en la sociedad.
+	\item Incentivar el cuidado animal.\newline
+	Actualmente muchas personas tienen mascotas, pero no saben que es lo que necesitan ni lo que estas desean. Apuntamos a entregar las herramientas necesarias para que los dueños sean mejores.
+	\item Apoyo a las organizaciones relacionadas.\newline
+	El lograr que un proyecto de esta magnitud rinda frutos solo será posible con el apoyo permanente de las organizaciones interesadas. No solo este proyecto beneficia a los dueños, sino que en gran medida a las corporaciones, que en muchos casos, escriben la información en papel o en documentos de texto centralizados.
+\end{itemize}
+		\section{Objetivos}
+		\begin{itemize}
+			\item Crear un archivo que contenga la información entregada.
+			\item Organizar la información de manera ordenada y facil de controlar.
+			\item Ofrecer un conjunto de funciones para la creación de aplicaciones.
+			\item Generar informes en tiempo real para el interesado.
+			\item Contacto directo con entidades a través de la plataforma.
+			\item Recomendaciones a los amos para mejorar la calidad de vida de sus mascotas.
+			\item Control de alertas y mensajes
+\end{itemize}
+		\section{Metas de gesti'on del proyecto}
+		Indexacion de toda la información relacionada con las mascotas y sus dueños, para que esta esté a su disposición y al alcance de ellos, centros de salud y organizaciones sin fines de lucro relacionadas con el cuidado animal en todos sus alcances. Fundamentalmente el proyecto consta la formación de una institución sin fines de lucro, reduciendo los costos al maximo y reinvirtiendo todo el beneficio obtenido y lograr así continuidad en el medio. Para lograr esto, se definen las siguientes metas:\newline
+		\begin{enumerate}
+	\item Lograr instaurar una plataforma informatica en un plazo de 6 meses.
+	\item Contactar con entidades durante el primer año.
+	\item Recaudar fondos para mantener el proyecto 2 veces al mes.
+	\item Despues del primer año, se realizan modificaciones al proyecto, en base a ganancias y gastos.
+	\item Cada mes, en base a los lineamientos del punto anterior, se reinvierten los activos.
+\end{enumerate}
+	\chapter{Alcance del proyecto}
+		\section{Dimensiones del alcance}
+		Cuando nos presentamos ante cualquier proyecto, el objetivo es definir el alcance o el impacto que este tiene en el medio en el cual será insertado, para ello, es necesario definir limites que delimitan el actuar del proyecto y lo que puede o no hacer. Esto ayuda a enfocar los esfuerzos en la problematica en sí y no desviarse del objetivo principal.
+			\subsection{Empresarial}
+				\begin{itemize}
+					\item La organización será sin fines de lucro.
+					\item Su base de operaciones será en Santiago, Región Metropolitana, Chile.
+					\item Se encripatará la información contenida en la plataforma
+					\item Transparencia empresarial.	
+					\item Los interesados en mejorar la plataforma pueden acceder a una api para manejar los datos.
+					\item El proceso para registrar una aplicación requiere pasar por un proceso fisico de aceptación a la empresa u organización en cuestion.		
+				\end{itemize}
+			\subsection{Funcional}
+				\begin{itemize}
+					\item Se contactarán organizaciones protectoras de animales en la región.
+					\item Se contactarán a veterinarias en la región.
+					\item Para aprobar a las organizaciones estas deben pasar por un escrutinio previo (Toma de antecedentes e historia de la organización).
+					\item Los datos serán guardados en una base de datos radicada en Chile.
+				\end{itemize}
+			\subsection{Principal - Core}
+				\begin{itemize}
+					\item Esta información será accesible solo por los clientes y organizaciones autorizadas.
+					\item Se entregará información en tiempo real, generada en la plataforma.
+					\item Los datos serán almacenados en una base de datos NoSQL.
+					\item se proveerá una API para la creación de aplicaciones e interfaces.
+					\item La interfaz principal será via web.
+					\item La aplicación y documentación estará en idioma español.
+					\item La plataforma será desarrollada usando software libre\footnote{los usuarios tienen la libertad de ejecutar, copiar, distribuir, estudiar, modificar y mejorar el software}
+				\end{itemize}
+		\section{Soluci'on propuesta}
+		La solución propuesta en proveer una base de datos no relacional, donde se almacenarán los datos de los clientes y las organizaciones que deseen formar parte del proyecto. La información almacenada se entregará en forma de informes mensuales(Via email y/o JSON) o Cuando el interesado lo estime conveniente (via WEB o JSON\footnote{JavaScript Object Notation}), con el cual se puede manejar la información de manera eficaz. Esta información solo será accesada por los usuarios autorizados. Se proveerá una interfaz web y un conjunto de API\footnote{Interfaz de programación de aplicaciones} para que los interesado puedan acceder a los datos.
+			\subsection{Ambito financiero}
+				\begin{itemize}
+	\item La plataforma será de acceso gratuito.
+\end{itemize}
+			\subsection{Ambito de Operaciones}
+			\begin{itemize}
+	\item Los datos estarán almacenados en un VPS ubicado en Chile.
+	\item Se generará información en base a los datos ingresados.
+	\item Los datos se entregarán en formato JSON.
+	\item Se proveerá una API para la creación de aplicativos.
+	\item Se almacenará información sensible\footnote{Detallada en la ley 19.628} sobre los usuarios y las activides diarias de las mascotas.
+	\item Se almacenará información publica sobre las organizaciones que forman parte. 
+	\item El codigo será de libre acceso, cualquiera puede modificarlo o mejorarlo, manteniendo la misma licencia.
+\end{itemize}
+			\subsection{Ambito de Recursos Humanos(HR)}
+			\begin{itemize}
+	\item Se contratará a un Informatico para la programación y puesta en marcha.
+	\item Se contratarán a personas dedicadas a promover la aplicación.
+	\item Se contratará a un Informatico para la mantención de la plataforma
+	\item Los sueldos se reajustarán en base a proyecciones y capital, cada mes.
+	\item Las contribuciones de terceros no serán pagadas.
+\end{itemize}
+			\subsection{Ambito anal'itico}
+			\begin{itemize}
+				\item Modulos sistema:
+					\subitem Guardado de datos: se reciben los datos en JSON y son ingresados en la Base de Datos.
+					\subitem Entrega de informacion: Los datos serán entregados en formato JSON a los aplicativos.
+				\item Modulos Plataforma WEB
+					\subitem Información General
+						\subsubitem Información de la organización: Aquí se datallan los datos de la organización.
+					\subitem Usuario Registrado
+						\subsubitem Muestra de datos: La información se muestra en formato HTML\footnote{lenguaje de marcas de hipertexto} para su lectura.
+						\subsubitem Exportar a pdf: Un botón que permita entregar la información para su impresión.
+						\subsubitem Muestra de Alertas: Se muestra una lista de las alertas enviadas.
+						\subsubitem Datos de organizaciones: Se muestra a través de un mapa la ubicación e información de los organismos ingresados
+						\subsubitem Contactos: Linea directa con las organizaciones en caso de emergencia o de contacto.
+					\subitem Usuario No registrado
+						\subsubitem Datos de organizaciones: Se muestra a través de un mapa la ubicación e información de los organismos pertenecientes al sistema.
+						\subsubitem Formulario de ingreso: Se reciben los datos para evaluar el ingreso a la plataforma.
+						
+					
+\end{itemize}
+		\section{Marco de Alcance}
+			\subsection{Supuestos}
+			\begin{itemize}
+	\item El sistema estará basado en CLOUD.
+	\item La plataforma será accesible 24/7/365.
+	\item Se proveerá una API y una aplicación WEB para el acceso a los datos.
+	\item La API solo será accesible para personal autorizado.
+	\item Solo entidades certificadas y usuarios podran operar los datos.
+	\item Solo se podrán registrar organizaciones y dueños de la Región Metropolitana.
+	\item El sistema calculará expectativa de vida, IMC, alimentación y nivel de actividad fisica.
+	\item El modulo de calculo detallado en el punto anterior, asume que la alimentación y actividad fisica no varían hasta que se le indique lo contrario.
+	\item Solo existe un/a encargado por organización que pueda acceder a la plataforma.
+	\item Los datos estarán encriptados dentro de la base de datos.
+	\item La plataforma guarda información como nombre, raza y numero de chip (solo datos de referencia).
+	\end{itemize}
+			\subsection{Exclusiones}
+			\begin{itemize}
+	\item La plataforma solo está diseñada para ingresar perros y gatos. 
+	\item La plataforma no esta diseñada para unificar el sistema de chip electronico ni trabajar con estas bases de datos.
+	\item La plataforma no cuestiona ni insta al usuario a ingresar datos diariamente.
+	\item La mesa de ayuda solo funcionará en horario de oficina.
+	\item No se verifican cambios en los datos de las organizaciones ni dueños.
+
+\end{itemize}
+	\begin{comment}
+		\chapter{Planificaci'on General del proyecto}
+		\section{Estrategia de implantaci'on}
+		\section{Plan General de proyecto}
+		\section{Plan detallado del proyecto}
+		\section{Entregables}
+\end{comment}
+
+	\chapter{Organizaci'on del proyecto}
+		\section{Dedicaci'on de los integrantes del equipo y el cliente}
+Los integrantes del equipo se dedicarán a plasmar los objetivos del proyecto en la plataforma, realizando seguimientos de avances en tiempo real a través de tecnologias actuales (GIT), que permite llevar un control de los avances y un buen control de versiones. El cliente, como tal, son los dueños de mascotas y stakeholders de organizaciones con y sin fines de lucro, que envian suguerencias de cambios.
+		\section{Perfiles, Roles y Responsabilidades}
+		Durante el desarrollo es necesario definir los roles de los encargados y usuarios finales de la plataforma, tambien se requiere la creación de perfiles para empresas, organizaciones sin fines de lucro y dueños de mascotas. Estos tendrán distintos niveles de acceso al momento de acceder a los datos.
+			\subsection{Miembros del Comit'e Ejecutivo}
+			\subsection{Patrocinador del proyecto (Sponsor)}
+			\subsection{Gerente de proyecto de el CLIENTE}
+			\subsection{Gerente de proyecto de Consultor'ia}
+			\subsection{Oficina de Proyecto (PMO)}
+			\subsection{L'ider de equipo por Proceso Empresarial}
+			\subsection{Miembros del equipo por Proceso Empresarial}
+			\subsection{Consultores}
+			\subsection{Equipo de Desarrolladores}
+			\subsection{Administradores de Sistemas}
+			\begin{comment}
+	\chapter{Control del proyecto}
+		\section{Objetivos del control}
+		\section{Herramientas (Gantt, Pert)}
+		\section{Conjunto de indicadores asociados}
+		\section{Fases de la medici'on}
+			\subsection{Medir}
+			\subsection{Evaluar}
+			\subsection{Corregir}
+\end{comment}
+	
+	\chapter{Gestión de GAPS}
+		\section{Cuales son}
+			\subsection{Definici'on funcional}
+			\subsection{Definici'on te'cnica}
+			\subsection{Prioridad para el negocio}
+			\subsection{Criticidad para la continuidad del negocio}
+			\subsection{Ubicaci'on dentro del negocio}
+		\section{Impacto para el proyecto}
+			\subsection{Tiempo asociado}
+			\subsection{Recursos}
+				\subsubsection{Presupuesto}
+				\subsubsection{Quien Paga}
+		\section{Estrategia para administrarlos}
+\part{An'alisis de riesgo}
+	\chapter{Factores cr'iticos de 'exito del proyecto}
+	\chapter{Gesti'on de los riesgos del proyecto}
+		\section{Matriz de Riesgo}
+			\subsection{Identificaci'on de los riesgos del proyecto}
+			\subsection{Clasificaci'on de Riesgo}
+			\subsection{An'alisis y establecimiento de prioridades del riesgo}
+			\subsection{Control del riesgo y acciones de mitigaciòn (antes y despu'es)}
+			\subsection{Control}
+				\subsubsection{Herramientas para medir}
+				\subsubsection{Medición}
+				\subsubsection{Evaluar}
+				\subsubsection{Corregir}
+\part{Modelo del Negocio}
+	\chapter{Definci'on del modelo}
+		\section{Propuesta de valor}
+		\section{Relaci'on con clientes}
+		\section{Proveedores}
+		\section{Procesos}
+		\section{Financiamiento}
+		\section{Producto/Servicio}
+	\chapter{Modelo de procesos del proyecto (Diagrama)}
+\part{Plan de negocio}
+	\chapter{Introducci'on}
+	\chapter{Mercados}
+		\section{Generalidades}
+			\subsection{Negocio}
+			\subsection{Misi'on}
+			\subsection{Objetivos}
+			\subsection{Empresa}
+			\subsection{Producto}
+			\subsection{Financiamiento}
+	\chapter{Estudio de Mercado}
+		\section{Informaci'on General}
+		\section{Evoluci'on de la Actividad}
+		\section{Sub-Sectorizaci'on}
+		\section{Marco Legal}
+		\section{Situaci'on del pa'is con relaci'on a convenios/tratados globales}
+		\section{Composici'on y Caracter'isticas del mercado}
+		\section{Condiciones Comerciales de las Empresas}
+		\section{Descripci'on de las principales costumbres y cultura de negocios en Chile}
+		\section{Tamaño del mercado}
+		\section{Descripci'on del mercado}
+		\section{An'alisis de la demanda}
+		\section{Conclusiones y perspectivas futuras}
+		\section{Estudio del mercado de las compras en Chile}
+	\chapter{Análisis de la competencia}
+		\section{Listado de competidores directos}
+		\section{An'alisis de posicionamiento seg'un Porter}
+	\chapter{Plan de Ventas}
+		\section{Estrategia de precios}
+			\subsection{An'alisis FODA}
+			\subsection{Producto/Servicio Ofrecido}
+			\subsection{Estrategia de Precios}
+		\section{Comunicaciones de Ventas}
+		\section{Estrategias Promocionales}
+		\section{Excelencia en el servicio}
+		\section{Garant'ias/Retornos/Asegurar Calidad}
+		\section{An'alisis FODA respecto de}
+			\subsection{An'alisis Interno}
+			\subsection{An'alisis Externo}
+		\section{Pronostico de Ventas}
+	\chapter{Distribuci'on y Ventas}
+		\section{Oportunidades claves para vender}
+		\section{Lista de canales de distribuci'on / Lista de principales socios distribuidores}
+		\section{Lista de estrategia de comunicaciones}
+		\section{Distribuci'on}
+	\chapter{Plan de operaciones}
+		\section{Introducci'on}
+		\section{Antecedentes y Justificaci'on}
+		\section{Plan de Fabricaci'on}
+		\section{Vigencia del Plan de Operaciones}
+	\chapter{Recursos Humanos}
+		\section{Resumen administraci'on}
+		\section{Estructura organizacional}
+		\section{Personal y tiempos}
+		\section{Procesos de reclutamiento y selecci'on}
+	\chapter{Plan Financiero}
+		\section{Flujo}
+		\section{Ingresos}
+\part{Gesti'on de costos}
+	\chapter{Estimaci'on ('items involucrados)}
+	\chapter{Creaci'on presupuesto (asignar valor a 'items)}
+	\chapter{Control de costos}
+		\section{Medir Real vs Plan - Herramientas}
+		\section{Evaluar}
+		\section{Corregir}
+		\section{Contabilizaci'on}
+	\chapter{Financiamiento}
+		\section{Directo}
+		\section{Indirecto}
+\part{Especificaci'on de software}
+	\chapter{Introducci'on}
+		\section{Objetivo}
+			\subsection{General}
+			\subsection{Especifico}
+		\section{'Ambito}
+			\subsection{'Area involucrada}
+			\subsection{Actividades organizacionales afectadas}
+		\section{Definiciones, siglas y abreviaturas}
+		\section{Referencias}
+		\section{Visi'on Global}
+			\subsection{Beneficios esperados}
+	\chapter{Descripci'on general}
+		\section{Perspectiva del producto}
+			\subsection{Tiempo de vida}
+			\subsection{Caracter'isticas}
+				\subsubsection{Escalabilidad}
+				\subsubsection{Adaptabilidad}
+				\subsubsection{Reusabilidad}
+				\subsubsection{Transporte}
+				\subsubsection{Actualizaciones}
+		\section{Funciones del producto}
+			\subsection{Funciones esperadas}
+		\section{Caracter'isticas del usuario}
+			\subsection{Capacitaci'on}
+			\subsection{Operaci'on}
+			\subsection{Formaci'on}
+		\section{Limitaciones generales}
+		\section{Supuestos y dependencias}
+	\chapter{Requisitos espec'ificos}
+		\section{Requisitos funcionales}
+			\subsection{Requisito funcional 1}
+				\subsubsection{Presentaci'on}
+				\subsubsection{Entradas}
+				\subsubsection{Procedimientos, Reglas}
+				\subsubsection{Salidas}
+			\subsection{Requisito funcional n}
+				\subsubsection{Presentaci'on}
+				\subsubsection{Entradas}
+				\subsubsection{Procedimientos, Reglas}
+				\subsubsection{Salidas}
+		\section{Requisitos Interfaz externa}
+			\subsection{Interfaces de usuario}
+			\subsection{Interfaces de Hardware}
+			\subsection{Interfaces de Software}
+			\subsection{Interfaces de Comunicaciones}
+		\section{Requisitos de ejecuci'on}
+			\subsection{Tiempo procesos}
+			\subsection{Tiempo respuesta a consultas}
+			\subsection{Modalidad de ejecuci'on}
+		\section{Restricciones de diseño}
+			\subsection{Acatamiento de est'andares}
+			\subsection{Limitaciones de Hardware}
+		\section{Atributos de calidad}
+			\subsection{Seguridad}
+			\subsection{Mantenimiento}
+		\section{Otros requisitos}
+			\subsection{SLA}
+			\subsection{Mesa de ayuda}
+	\chapter{Roles y perfiles}
+		\section{Nomina de usuarios}
+		\section{Perfil}
+			\subsection{Privilegios de acceso seg'un modulos}
+		\section{Roles}
+			\subsection{'Area}
+			\subsection{Cargo}
+			\subsection{Funciones}
+\part{Especificaci'on de hardware}
+	\chapter{Almacenamiento}
+		\section{Primario}
+		\section{Secundario}
+	\chapter{Seguridad}
+		\section{Usuarios}
+		\section{Acceso}
+		\section{Cantidad de conexiones}
+	\chapter{Respaldos}
+	\chapter{Aceesos}
+		\section{Locales}
+		\section{Remotos}
+	\chapter{Licencias}
+		\section{Software}
+		\section{Sistema Operativo}
+	\chapter{Soporte t'ecnico}
+		\section{SLA}
+		\section{Garant'ia}
+		\section{Escalabilidad}
+		\section{Actualizaciones}
+		\section{Transporte}
+		\section{Mesa de Ayuda}
+	\chapter{Arquitectura Sugerida}
+\part{Modelo de Gesti'on}
+	\chapter{Introducci'on}
+	\chapter{Indicadores de Gesti'on}
+		\section{'Ambito de aplicaci'on de Indicadores de Gesti'on}
+			\subsection{Plataforma, software, datos, modelos, otros.}
+				\subsubsection{Objetivos de su aplicaci'on}
+				\subsubsection{Beneficios de su aplicaci'on}
+				\subsubsection{Caracter'isticas de los Indicadores aplicados}
+				\subsubsection{Dimensi'on de los Indicadores Identificados}
+			\subsection{Entidades involucradas seg'un procesos de: Cliente, Empresa y Sponsor}
+				\subsubsection{Diagrama de proceso}
+				\subsubsection{Identificaci'on, Proceso y Descripci'on de Indicadores}
+				\subsubsection{Indicador, Medici'on y F'ormula}
+				\subsubsection{Ponderaci'on de Indicadores y Gesti'on asociada}
+		\section{Buenas Practicas}
+			\subsection{Estrategias}
+			\subsection{Est'andares}
+				\subsubsection{¿Como funciona?}
+				\subsubsection{Evaluaci'on}
+\part{Conclusiones}
+	\chapter{Generales}
+	\chapter{Especificas}
+\appendix
+\clearpage
+
+
+
+
+
+\end{document}

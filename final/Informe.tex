@@ -1,0 +1,265 @@
+\documentclass[letterpaper,openright,10pt,twoside]{report}
+
+\usepackage[spanish,activeacute]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[letterpaper,width=150mm,top=25mm,bottom=25mm]{geometry}
+\usepackage{fancyhdr}
+\usepackage{verbatim}
+\usepackage{pdfpages}
+
+
+\pagestyle{fancy}
+
+\fancyhead{}
+\fancyhead[RO,LE]{Sistema de avisos integrando mensajeria en tiempo real}
+
+\fancyfoot{}
+\fancyfoot[LE,RO]{\thepage}
+\fancyfoot[LO,CE]{Taller Integral de Proyectos Informáticos}
+\fancyfoot[CO,RE]{Ignacio Jara}
+
+%Gummi|065|=)
+\title{\textbf{Sistema de avisos integrando mensajeria en tiempo real}}
+\author{Ignacio Jara\\Taller de Proyecto de Software\\Raúl del Canto\\INACAP Apoquindo}
+
+\date{\today}
+\usepackage{graphicx}
+
+\begin{document}
+%aqui va la portada	
+\includepdf[pages=1-2]{Portada.pdf}
+%% introducción
+
+
+
+\part{Introducción}
+\chapter*{Resumen ejecutivo}
+	Actualmente todas las empresas o personas que desean ofrecer un producto a través de internet, deben realizarlo a través de plataformas, en las que ingresan los productos y esperar a que alguien responda desde variados medios de comunicación, ya sea una llamada como un mensaje a través de correo electronico. Las empresas que desean comenzar a operar a través de internet, también se encuentran con similares dificultades, ya que ofrecer un sitio de comercio electronico tiende a ser engorroso y caro.
+	
+
+	El objetivo de este proyecto, es entregun un repositorio en el cual, organizaciones y personas naturales puedan ofrecer sus productos a través de internet. Sin intermediarios o inversiones que pueden significar un desmedro a sus negocios.
+	Para lograr este objetivo, se crea un software que permite la exhibición de productos a través de ella, junto a un modulo de comunicación en tiempo real, llamado de forma coloquial "chat", en el cual se puede llegar a un acuerdo directamente con la persona encargada en la empresa o con la personas que ofrece el producto o servicio.
+	
+	Todos los interesados pueden subir y ofrecer sus productos a través de los llamados "mensajes", sin embargo, existirán mensajes destacados al invertir dinero en estos.
+	\chapter*{Objetivo del documento}
+	Principalmente, en este documento se detallará el plan para formar un organización, sus necesidades y procesos, para sostener el proyecto contenido en esta tesis, que es la de formar un sistema de alertas de promociones con mensajería en tiempo real.
+	
+	Se detalla el alcance que tiene el proyecto, junto a las metas y objetivos que este debo cumplir para el pleno funcionamiento de la organización, se escriben los requerimientos de las empresas y personas interesadas en esta plataforma. Con estos datos es posible diagramar los procesos que realizará el software, para suplir estas necesidades, junto con el diseño de la base de datos, que guardará la información para ser utlizados en la plataforma.
+	
+	A su vez, se detallan los procesos que realiza la organización, como obtiene recursos, opera y reinvierte sus ganancias para mejorar sus alcance. Se especifican los roles que existen y como operan entre si, como también el modelo de negocio a seguir, detallando los potenciales riesgos que pueden aparecer durante el tiempo de vida del proyecto y los costos asociados en la creación y mantención de la plataforma.
+	
+	El plan de negocio entrega la respuesta a como tratar con este tipo de organizaciones, como agregar valor a nuestro producto y a las entidades interesadas en el, y detallar los puntos positivos que son necesario explotar y los puntos negativos que quedan por mejorar. Permite detallar el mercado objetivo al cual apuntamos y todos los procesos a realizar para darle forma a la organización.
+	
+	Luego se detallan las especificaciones del software y el hardware para el correcto funcionamiento del aplicativo, la forma en la cual los usuarios interactuarán con ella y los GAP's que puedan aparecer durante el desarrollo de esta; Se documentan los requisitos funcionales y no funcionales, ademas de los pasos a seguir usando metodología.
+	
+	Al finalizar el documento estan las conclusiones de este caso, que de una u otra forma, permiten comprender el significado del proyecto y las implicancias que tiene este en la sociedad.
+
+%% Indice
+
+\newpage
+\tableofcontents
+	
+%% Desarrollo
+	
+\part{Desarrollo del tema}
+	\chapter{Formulación y delimitación del problema en estudio}
+	Proveer un sistema confiable y seguro, para que los encargados de las organizaciones y personas naturales puedan ingresar su información de contacto y ofrecer productos y /o servicios a través de nuestra plataforma. El objetivo es llegar a la mayor cantidad de personas u organizaciones que estén interesados.
+		Ofrecer un servicio en la nube, para ofrecer servicios o productos, que estos se muestren en tiempo real, permitiendo a los intersados en esos servicios, adquirirlos directamente con la fuente. Sirviendo de nexo directo entre vendedor y comprador.
+		\section{Descripción de la organización}
+		El grupo de Lo Tenemos (lotenemos) es una empresa de avisos clasificados, enfocada principalmente a servir de nexo entre vendedores y potenciales clientes interesados en adquirir servicios y/o productos. Esta empresa fué fundada en 2016, y se proyecta un ingreso al mercado a principios de 2017.
+		Su principal producto es la plataforma de para la creación de avisos clasificados en tiempo real, que funciona en plataforma web, android y IOS.
+			\subsection{Antecedentes}
+				\subsubsection{Misión}
+					Ser un nexo entre personas y organizaciones interesadas en ofrecer productos y/o servicios a través de una plataforma en tiempo real de avisos clasificados en la Región Metropolitana, Chile.
+				\subsubsection{Visión}
+					Los empleados trabajan para hacer de lotenemos:
+						\begin{itemize}
+							\item Una empresa líder en el país en avisos clasificados.
+							\item Especialistas en avisos con reconocimiento regional.
+							\item Una empresa tecnológicamente de vanguardia.
+\end{itemize}
+			Generando:
+			\begin{itemize}
+				\item Mayores beneficios para nuestros colaboradores y sus familias.
+				\item Excelentes y mayores oportunidades de trabajo.
+				\item Reconocimiento por su calidad humana y empresarial.
+				\item Bienestar en el entorno social.
+\end{itemize}
+			 \subsubsection{Valores}
+			 	\begin{itemize}
+					\item Ética, seriedad y honestidad.
+					\item Trabajo en equipo.
+					\item Actitud de Servicio.
+					\item Operar con costos acordes al mercado.
+					\item Compromiso con mejorar los procesos.
+\end{itemize}
+			\subsection{Estructura Organizacional}
+				La empresa está formada por las siguientes áreas:
+				\begin{itemize}
+					\item Gerencia.
+					\item Área de Desarrollo.
+					\item Área de Mantención.
+					\item Área de RRHH.
+					\item Área Comercial.
+\end{itemize}
+		\section{Descripción del problema}
+		Generar los lineamientos y la forma en la cual debe funcionar una organización que soporte un proyecto informatico, el cual debe entregar una solución de software y hardware para la creación y difusión de avisos clasificados, que deben ofrecerse al publico en tiempo real, con una respuesta del oferente lo mas rapido posible (tiempo real).
+	\chapter{Objetivos}
+		\section{Generales}
+			\begin{itemize}
+				\item Generar valor para la organización.
+				\item Obtener beneficios economicos en base a microtransacciones.
+			\end{itemize}
+		\section{Especificos}
+			\begin{itemize}
+				\item Crear un archivo que contenga la información entregada.
+				\item Organizar la información de manera ordenada e intuitiva.
+				\item Ofrecer un conjunto de funciones para la creación de aplicaciones.
+				\item Ofrecer una plataforma de comunicación directa entre vendedores y clientes.
+				\item Control de alertas y mensajes.
+			\end{itemize}
+	\chapter{Marco Teorico}
+		\section{Tema}
+			Desarrollo de plataforma en línea, para la promoción de productos y/o servicios que proveen terceros, para la generación de lazos entre cliente y vendedor, sin la necesidad de personas o servicios intermediaros; con el fin de proveer un sistema eficiente y eficaz.
+		\section{Problema}
+			Los sistemas actuales de avisos clasificados no funcionan en tiempo real, no existe algún grado de certeza sobre la disponibilidad del producto o servicio sin antes consultar, a través de distintos medios, sobre la existencia del producto en particular, cuyo tiempo de respuesta también es incierto.
+		\section{Hipotesis}
+			Crear un sistema en linea, que premie al vendedor u oferente a mantenerse conectado el mayor tiempo posible, destacando sus productos sobre otros cuya existencia tiende a ser incierta.
+		\section{Objetivo}
+			Mejorar la forma en la que se publican avisos clasificados en internet, colocando como factor clave la comunicación en tiempo real.
+		\section{Área de estudio}
+			\begin{itemize}
+				\item PYMES
+				\item Microempresas
+				\item Vendedores particulares
+				\item Personas naturales con productos y/o servicios a la venta.
+				\item Personas naturales que buscan productos y/o servicios.
+			\end{itemize}		
+		\section{Unidades de estudio}
+			\begin{itemize}
+				\item Comunas de Santiago, sector oriente.
+			\end{itemize}
+		\section{Metodología}
+			Se utilizará una metodología de desarrollo agíl, para generar un prototipo funcional en el menor tiempo posible, lanzar al mercado el producto y luego detectar, en base a estudios e información generada, el generar modificaciones para adaptarse al mercado en particular.
+	\chapter{Metodología de trabajo}
+		\section{Propuesta de Solución}
+			La solución propuesta es proveer una base de datos, donde se almacenarán los datos de los clientes y las organizaciones que deseen formar parte del proyecto. La información almacenada se entregará en tiempo real a los clientes, por lo cual, se puede manejar la información de manera intuitiva y eficaz. Se deberá proveer una interfaz web y movil.
+			\subsection{Alternativas}
+				\begin{itemize}
+					\item Sistema transaccional, que trabaja con una base de datos no relacional, basado en Meteor \footnote{http://meteor.com}, permitiendo la creación de aplicaciones Moviles y Web.
+					\item Sistema transaccional, que trabaja bajo el paradigma modelo, vista y controlador, usando una base de datos relacional y el lenguaje de programación PHP\footnote{https://secure.php.net/}.
+					\item Aplicación movil, que conecta a una base de datos para sincronizar información entre clientes, usando el motor Apache Cordova\footnote{https://cordova.apache.org/}, con el fin de reducir los tiempos de desarrollo.
+				\end{itemize}
+			\subsection{Evaluación}
+				Al momento de evaluar soluciones, se toman en cuenta distintas opciones y parametros y se selecciona la solución que cubra las necesidades de la problematica. se utilizará una escala de 1 a 3, donde 1 no cumple y 3 cumple a cabalidad.
+				\subsubsection{Factibilidad Técnica}
+				Al realizar una evaluación técnica, el principal foco es demostrar que el negocio puede ponerse en marcha y mantenerse, mostrando evicendias de que se ha planeado cuidadosamente. Se creará una tabla con el detalle de cada propuesta de solución y se usará la que cubra en mayor medida las necesidades. Se colocará una nota de 1 a 10
+				
+				\begin{tabular}{|c|c|c|c|}
+\hline
+	 & Meteor & PHP & Apache Cordova\\
+\hline
+%% https://www.ibm.com/developerworks/ssa/library/wa-meteor/
+	Tiempo de desarrollo 			& 3 & 1 & 2\\
+\hline
+	Escalabilidad 		 & 3 & 1 & 2\\
+\hline
+	Funcionamiento en tiempo real & 3 & 2 & 3\\
+\hline
+	Mantención del codigo & 2 & 1 & 3\\
+\hline
+	Curva de aprendizaje & 2 & 1 & 2\\
+\hline
+	Total & 13 & 6 & 12 \\
+\hline
+\end{tabular}
+
+				
+				\subsubsection{Factibilidad Económica}
+				\subsubsection{Factibilidad Implementativa}
+			%% Solución propuesta. 	
+			\subsection{Solución propuesta}
+			
+			Sistema transaccional, que conecta una base de datos no relacional, con un sistema basado en meteor\footnote{https://www.meteor.com/}, que crea una aplicación en las plataformas solicitadas en puntos anteriores, con la finalidad de crear una plataforma de avisos clasificados, que premie a usuarios que están conectados, destacandolos del resto y que además, provee un sistema de mensajería en tiempo real, permitiendo al usuario conversar directamente con el proveedor y concertar una reunion y/o adquisición.
+				
+					\subsubsection{Ambito financiero}
+						\begin{itemize}
+							\item La plataforma será de acceso gratuito para clientes y personas naturales.
+							\item La plataforma colocará un distintivo a los mensajes pertenecientes a organizaciones certificadas.
+							\item Existirá publicidad que proveen terceros.
+						\end{itemize}
+					\subsubsection{Ambito de operaciones}
+						\begin{itemize}
+							\item Los datos serán almacenados en un VPS ubicado en Chile.
+							\item Se generarán mensajes.
+							\item Se proveerá un sistema de mensajes en tiempo real.
+							\item Se almacenará información sensible\footnote{Detallada en la ley 19.628} sobre los usuarios.
+							\item Se almacenará información sensible sobre las organizaciones que forman parte. 
+						\end{itemize}
+					\subsubsection{Ambito de Recursos Humanos(HR)}
+						\begin{itemize}
+							\item Se contratará a un Informatico para la programación y puesta en marcha.
+							\item Se contratarán a personas dedicas a administrar y promover la aplicación.
+							\item Se contratará a un Informatico para la mantención de la plataforma.
+							\item Los sueldos se reajustarán en base a proyecciones, apital y legislación vigente, de manera anual.
+						\end{itemize}
+					\subsubsection{Ambito anal'itico}
+						\begin{itemize}
+							\item Modulos sistema:
+								\subitem Guardado de datos: Se reciben los datos en formato JSON y son ingresados en la Base de Datos.
+								\subitem Entrega de información: Los datos serán entregados en formato JSON al aplicativo.
+							\item Modulos Plataforma WEB
+								\subitem Información General
+									\subsubitem Información de la organización: Aquí se datallan los datos de la organización.
+								\subitem Usuario Registrado
+									\subsubitem Muestra de datos: La información se muestra en formato HTML\footnote{lenguaje de marcas de hipertexto} para su lectura.
+								\subitem Modulo de Mensajes
+									\subsubitem Inserción de Mensajes
+									\subsubitem Borrado de Mensajes
+									\subsubitem Detalle de Mensajes
+								\subitem Modulo de Chat
+									\subsubitem Creación de sala de chat
+									\subsubitem Listado de Chats
+						\end{itemize}
+				\subsection{Marco de Alcance}	
+						\subsubsection{Supuestos}
+							\begin{itemize}
+								\item El sistema estará basado en CLOUD.
+								\item La plataforma será accesible 24/7/365.
+								\item Se proveerá una aplicación WEB para el acceso a los datos.
+								\item La administración solo será accesible para personal autorizado.
+								\item Solo entidades certificadas y clientes podran operar los datos.
+								\item Solo existe un/a encargado por organización que pueda acceder a la plataforma.
+								\item Los datos estarán encriptados dentro de la base de datos.
+							\end{itemize}
+						\subsubsection{Exclusiones}
+							\begin{itemize}
+								\item La empresa no se hace responsable por fraudes o situaciones legales.
+								\item La empresa entregará toda la información relevante a autoridades sobre el tema.
+								\item La mesa de ayuda solo funcionará en horario de oficina.
+								\item No se verifican cambios en los datos de las organizaciones ni clientes.
+							\end{itemize}
+			%%	
+		\section{Beneficios de la solución}
+		\section{Desarrollo Técnico}
+			\subsection{Marco de desarrollo}
+			\subsection{Plan de proyecto}
+		\section{Análisis}
+			\subsection{Modelo conceptual de datos}
+			\subsection{Modelo de procesos (DFD, DFA)}
+			\subsection{Especificación de requerimientos (Funciones, datos, interfaz)}
+			\subsection{Especificación de requisitos (Restricciones técnicas, funcionales, de implementación)}
+		\section{Diseño}
+			\subsection{Diseño de Alto Nivel}
+			\subsection{Diseño Estructural}
+			\subsection{Diseño Detallado (DFD, Diccionario de Datos, Especificaciones estructurado)}
+		\section{Plan de Pruebas}
+			\subsection{Prueba del sistema}
+			\subsection{Prueba de aceptación}
+	\chapter{Presentación de Datos y Ánalisis de Resultados}
+\part{Conclusiones y recomendaciones}
+\part{Referencias y notas explicativas}
+\part{Bibliografía}
+	%% http://www.trabajo.com.mx/factibilidad_tecnica_economica_y_financiera.htm
+\part{Anexos y Apéndices}
+\end{document}

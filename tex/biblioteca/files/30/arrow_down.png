@@ -1,0 +1,355 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
+    <head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>Page not found | Joinup</title>
+        <meta http-equiv="Content-Language" content="en" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="https://joinup.ec.europa.eu/sites/all/themes/joinup/images/logo/favicon.ico" type="image/x-icon" />
+
+        <link type="text/css" rel="stylesheet" media="all" href="https://joinup.ec.europa.eu/sites/default/files/advagg_css/css_be4c7cf4d4c3ff9bbeffb56d1b49e28f_0.css" />
+<link type="text/css" rel="stylesheet" media="all" href="https://joinup.ec.europa.eu/sites/default/files/advagg_css/css_5a4492b081807a84505d221d38460d56_115.css" />
+<link type="text/css" rel="stylesheet" media="all" href="https://joinup.ec.europa.eu/sites/default/files/advagg_css/css_115712d71f683e481b44e2df70220963_118.css" />
+<link type="text/css" rel="stylesheet" media="print" href="https://joinup.ec.europa.eu/sites/default/files/advagg_css/css_4040b20508149370858d04481ccaf09a_118.css" />
+        <!--[if IE]>
+            <link rel="stylesheet" href="https://joinup.ec.europa.eu/sites/all/themes/joinup/styles/default/ie.css" type="text/css" media="all" />
+        <![endif]-->
+        <script type="text/javascript" src="https://joinup.ec.europa.eu/sites/default/files/advagg_js/js_c7ee804145e1058f936ac1197116631d_121.js"></script>
+<script type="text/javascript" src="https://joinup.ec.europa.eu/sites/default/files/advagg_js/js_a8cf71e0f30b1af9a515f0ed1534e63e_45.js"></script>
+<script type="text/javascript" src="https://joinup.ec.europa.eu/sites/default/files/advagg_js/js_d4b5ec0cf4a76989a77fc314bcff6f89_128.js"></script>
+<script type="text/javascript" src="https://joinup.ec.europa.eu/sites/default/files/advagg_js/js_24dc98ed54b855a22ab2821015394ace_120.js"></script>
+<script type="text/javascript" src="https://joinup.ec.europa.eu/sites/all/modules/custom/isa_toolbox/customize_field.js?5"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","jstools":{"cleanurls":true,"basePath":"\/"},"collapsiblock":{"blocks":{"block-apachesolr_facetbuilder-sm_facetbuilder_facet_node_type":2,"block-apachesolr_search-created":3,"block-apachesolr_search-im_vid_26":3,"block-apachesolr_search-im_vid_27":3,"block-apachesolr_search-im_vid_28":3,"block-apachesolr_search-im_vid_31":3,"block-apachesolr_search-im_vid_63":3,"block-apachesolr_search-im_vid_68":3,"block-apachesolr_search-im_vid_69":3,"block-apachesolr_search-im_vid_74":3,"block-apachesolr_search-im_vid_78":3,"block-apachesolr_search-im_vid_84":3,"block-isa_apachesolr-0":3,"block-isa_apachesolr-2":3,"block-isa_apachesolr-4":3,"block-isa_apachesolr-9":3,"block-isa_apachesolr-10":3,"block-isa_apachesolr-11":3,"block-isa_apachesolr-12":3,"block-block-17":"2","block-block-15":"2","block-isa_blocks-52":"2","block-advpoll-latest_poll":"2"},"default_state":"2","slide_type":"2","slide_speed":"300","block_title":":header:first","block":"div.block_apachesolr_search","block_content":"div.content"},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls|xml|z|zip|rdf|xsl|docx|xlsx|pptx|ppts"},"jcarousel":{"ajaxPath":"\/jcarousel\/ajax\/views"},"contexthelp":{"ajax_url":"\/contexthelp\/retrieve","faq_url":"\/contexthelp\/faq\/retrieve","curl":"sites\/all\/themes\/joinup\/images\/icons\/arrow_down.png"},"fivestar":{"titleUser":"Your rating: ","titleAverage":"Average: ","feedbackSavingVote":"Saving your vote...","feedbackVoteSaved":"Your vote has been saved.","feedbackDeletingVote":"Deleting your vote...","feedbackVoteDeleted":"Your vote has been deleted."},"piwik":{"trackMailto":1},"heartbeat_language":"en","popups":{"originalPath":"sites\/all\/themes\/joinup\/images\/icons\/arrow_down.png","defaultTargetSelector":"#content-region","modulePath":"sites\/all\/modules\/contributed\/modified\/popups","autoCloseFinalMessage":1,"originalCSS":{"\/sites\/all\/modules\/contributed\/modified\/cck\/theme\/content-module.css":1,"\/modules\/node\/node.css":1,"\/modules\/system\/defaults.css":1,"\/modules\/system\/system.css":1,"\/modules\/user\/user.css":1,"\/modules\/poll\/poll.css":1,"\/sites\/all\/modules\/contributed\/collapsiblock\/collapsiblock.css":1,"\/sites\/all\/modules\/contributed\/ctools\/css\/ctools.css":1,"\/sites\/all\/modules\/contributed\/date\/date.css":1,"\/sites\/all\/modules\/contributed\/date\/date_popup\/themes\/datepicker.css":1,"\/sites\/all\/modules\/contributed\/date\/date_popup\/themes\/jquery.timeentry.css":1,"\/sites\/all\/modules\/contributed\/logintoboggan\/logintoboggan.css":1,"\/sites\/all\/modules\/contributed\/modified\/ckeditor\/ckeditor.css":1,"\/sites\/all\/modules\/custom\/isa_jquery_noconflict\/jquery_1_9_0\/css\/jquery-ui-1.10.0.custom.min.css":1,"\/sites\/all\/modules\/contributed\/modified\/contexthelp\/jqModal.css":1,"\/sites\/all\/modules\/contributed\/modified\/contexthelp\/contexthelp.css":1,"\/sites\/all\/modules\/contributed\/modified\/filefield\/filefield.css":1,"\/sites\/all\/modules\/contributed\/modified\/fivestar\/css\/fivestar.css":1,"\/sites\/all\/modules\/contributed\/modified\/fivestar\/widgets\/basic\/basic.css":1,"\/sites\/all\/modules\/contributed\/og\/theme\/og.css":1,"\/sites\/all\/modules\/contributed\/simplenews\/simplenews.css":1,"\/sites\/all\/modules\/custom\/isa_content_template\/css\/isa_content_template.css":1,"\/misc\/farbtastic\/farbtastic.css":1,"\/sites\/all\/modules\/contributed\/calendar\/calendar.css":1,"\/sites\/all\/modules\/contributed\/modified\/project_issue\/project_issue.css":1,"\/sites\/all\/modules\/contributed\/modified\/release\/project_release.css":1,"\/sites\/all\/modules\/contributed\/project\/project.css":1,"\/sites\/all\/modules\/contributed\/modified\/cck\/modules\/fieldgroup\/fieldgroup.css":1,"\/sites\/all\/modules\/contributed\/views\/css\/views.css":1,"\/sites\/all\/modules\/contributed\/modified\/popups\/popups.css":1,"\/sites\/all\/modules\/contributed\/modified\/popups\/skins\/basic\/basic.css":1,"\/sites\/all\/themes\/joinup\/styles\/default\/font-awesome.css":1,"\/sites\/all\/themes\/joinup\/styles\/default\/jcarousel-default.css":1,"\/sites\/all\/themes\/joinup\/styles\/commission\/ec-2012.css":1,"\/sites\/all\/themes\/joinup\/styles\/default\/system-menus.css":1,"\/sites\/all\/themes\/joinup\/styles\/default\/reset.css":1,"\/sites\/all\/themes\/joinup\/styles\/default\/grid.css":1,"\/sites\/all\/themes\/joinup\/styles\/default\/common.css":1,"\/sites\/all\/themes\/joinup\/styles\/default\/prueba.css":1,"\/sites\/all\/themes\/joinup\/styles\/default\/style.css":1,"\/sites\/all\/themes\/joinup\/styles\/default\/forms.css":1,"\/sites\/all\/themes\/joinup\/styles\/default\/dashboard.css":1,"\/sites\/all\/themes\/joinup\/styles\/default\/fixes.css":1,"\/sites\/all\/themes\/joinup\/styles\/default\/gui_1.css":1,"\/sites\/all\/themes\/joinup\/styles\/default\/gui_2.css":1},"originalJS":{"\/sites\/all\/modules\/contributed\/jstools\/jstools.js":1,"\/sites\/all\/modules\/contributed\/collapsiblock\/collapsiblock.js":1,"\/sites\/all\/modules\/contributed\/jstools\/jquery.cookie.js":1,"\/sites\/all\/modules\/contributed\/google_analytics\/googleanalytics.js":1,"\/sites\/all\/modules\/contributed\/heartbeat\/modules\/shouts\/shouts.js":1,"\/sites\/all\/libraries\/jquery.ui\/ui\/minified\/ui.core.min.js":1,"\/sites\/all\/libraries\/jquery.ui\/ui\/minified\/ui.accordion.min.js":1,"\/sites\/all\/modules\/custom\/isa_jquery_noconflict\/js\/init_level_1.js":1,"\/sites\/all\/modules\/custom\/isa_jquery_noconflict\/jquery_1_9_0\/js\/jquery-1.9.1.min.js":1,"\/sites\/all\/modules\/custom\/isa_jquery_noconflict\/jquery_1_9_0\/js\/jquery-ui-1.10.0.custom.min.js":1,"\/sites\/all\/modules\/custom\/isa_jquery_noconflict\/js\/init_level_2.js":1,"\/sites\/all\/modules\/contributed\/modified\/contexthelp\/jquery.accordion.js":1,"\/sites\/all\/modules\/contributed\/modified\/contexthelp\/jquery.modal.js":1,"\/sites\/all\/modules\/contributed\/modified\/contexthelp\/contexthelp.js":1,"\/sites\/all\/modules\/contributed\/modified\/fivestar\/js\/fivestar.js":1,"\/sites\/all\/modules\/contributed\/og\/og.js":1,"\/sites\/all\/modules\/custom\/isa_content_template\/js\/isa_content_template.js":1,"\/sites\/all\/modules\/custom\/isa_multiple_digest\/js\/isa_multiple_digest.js":1,"\/sites\/all\/modules\/custom\/isa_release_multiple_files\/js\/isa_release_multiple_files_dynamic_newfiles.js":1,"\/sites\/all\/modules\/custom\/isa_toolbox\/customize_field.js":1,"\/sites\/all\/modules\/fpfis-sysadmin\/piwik\/piwik.js":1,"\/sites\/all\/modules\/contributed\/heartbeat\/heartbeat.js":1,"\/misc\/jquery.form.js":1,"\/sites\/all\/modules\/contributed\/modified\/popups\/popups.js":1,"\/sites\/all\/modules\/custom\/isa_node_form\/js\/node_form.js":1,"\/sites\/all\/themes\/joinup\/scripts\/plugins\/jquery.cycle.js":1,"\/sites\/all\/themes\/joinup\/scripts\/init.js":1,"\/sites\/all\/themes\/joinup\/scripts\/commission\/ec-2012.js":1,"\/sites\/all\/themes\/joinup\/scripts\/placeholders.min.js":1}}});
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+newjQuery(document).ready(function(){
+                                     newjQuery('#contextual-help-dialog').draggable();
+                                     newjQuery('#contextual-help-dialog').resizable({minHeight: 150, minWidth: 200})
+                                   })
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+function destroyWYSIWYG(){
+    for(var instanceName in CKEDITOR.instances) {
+        CKEDITOR.instances[instanceName].destroy();
+    }
+
+    return false;
+}
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+function addEventToAddEntryButton(){Drupal.behaviors.destroyWYSIWYG_FIX = function(context) {
+$('#edit-field-content-field-content-add-more').click(function(){destroyWYSIWYG()})
+                                                 .mousedown(function(){destroyWYSIWYG()})
+                                                 .keypress(function(){destroyWYSIWYG()});
+};}
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery(document).ready(function () { retheme_field("asset_release_define","Translated release name","#edit-field-asset-name-items"); });
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery(document).ready(function () { retheme_field("asset_release_description_define","Translated Interoperability Solution description","#edit-field-asset-description-items"); });
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery(document).ready(function () { retheme_field("distribution_name_define","Translated Distribution name","#edit-field-distribution-name-items"); });
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery(document).ready(function () { retheme_field("distribution_description_define","Translated Distribution description","#edit-field-distribution-description-items"); });
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery(document).ready(function () { retheme_field("repository_name_define","Translated Repository name","#edit-field-repository-name-items"); });
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery(document).ready(function () { retheme_field("repository_description_define","Translated Repository description","#edit-field-repository-description-items"); });
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery(document).ready(function () { retheme_field("licence_name_define","Translated Licence name","#edit-field-licence-name-items"); });
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery(document).ready(function () { retheme_field("licence_description_define","Translated Licence description","#edit-field-licence-description-items"); });
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery(document).ready(function () { retheme_field("documentation_name_define","Translated Documentation name","#edit-field-documentation-title-items"); });
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery(document).ready(function () { retheme_field("item_label_define","Translated Item label","#edit-field-item-label-items"); });
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery(document).ready(function () { retheme_field("item_description_define","Translated Item description","#edit-field-item-description-items"); });
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery(document).ready(function () { retheme_field("item_publisher_define","Translated publisher name","#edit-field-publisher-name-items"); });
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+$(document).ready(function() { Drupal.contexthelp.noContentHelp = 1; });
+//--><!]]>
+</script>
+        <!--[if lte IE 7]>
+            <script type="text/javascript" src="https://joinup.ec.europa.eu/sites/all/themes/joinup/scripts/iequotes.js"></script>
+        <![endif]-->
+	    <script type="text/javascript">
+		    window.cookieconsent_options = {"message":"This site uses cookies to offer you a better browsing experience.","dismiss":"Got it!","learnMore":"Find out more on how we use cookies and how you can change your settings.","link":"https://joinup.ec.europa.eu/page/legal-notice","theme":"light-bottom"};
+	    </script>
+	    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/1.0.9/cookieconsent.min.js"></script>
+	</head>
+	<body class="js  ">
+		<a id="top-page" name="top-page"></a>
+				<div class="layout   layout-noleft layout-noright" id="layout">
+			<div id="header" class="clearfix">
+				<div class="header-top clearfix">
+					<img alt="European Commission logo" id="banner-flag" src="/sites/all/themes/joinup/images/commission/logo/logo_en.gif" />
+					<h1 id="banner-image-title"><a href="/" title="Joinup"  class="title-en logo"><img alt="Joinup logo" src="/sites/all/themes/joinup/images/logo/joinup.png" /></a>
+						<strong>Share and reuse interoperability solutions for public administrations</strong>
+					</h1>
+				
+											<div id="user-box" class="clearfix">  
+<div id="block-user-1" class="clearfix block ">
+	<h2 class="accessibility-info">Navigation top bar</h2>
+		<div class="content">
+	  	  	  	
+	  	          <ul class="menu">
+        <li class="leaf first"><a href="/user/login?destination=sites%2Fall%2Fthemes%2Fjoinup%2Fimages%2Ficons%2Farrow_down.png">Login</a> or</li>
+        <li class="leaf last"><a href="/member/register">Sign up</a></li>
+      </ul>
+	  	</div>
+</div>
+
+  
+<div id="block-search-0" class="block search clearfix">
+			<h2 class="accessibility-info">Search</h2>
+		<div class="content">
+		<form action="/search/apachesolr_search"  accept-charset="UTF-8" method="post" id="search-block-form">
+<div><div class="container-inline">
+  <div class="form-item" id="edit-search-block-form-1-wrapper">
+ <input type="text" maxlength="128" name="search_block_form" id="edit-search-block-form-1" size="15" value="" title="Enter the terms you wish to search for." class="form-text" />
+</div>
+<input type="submit" name="op" id="edit-submit" value="Search"  class="form-submit" />
+<input type="hidden" name="form_build_id" id="form-CXZzgwgepNtL32WAXivhsneQbNOFQbQafGrNCGDoYeY" value="form-CXZzgwgepNtL32WAXivhsneQbNOFQbQafGrNCGDoYeY"  />
+<input type="hidden" name="form_id" id="edit-search-block-form" value="search_block_form"  />
+<input type="hidden" name="origin" id="edit-origin" value="page_not_found"  />
+</div>
+
+</div></form>
+	</div>
+</div>
+</div>
+										<p class="off-screen">Accessibility tools</p>
+					<ul class="reset-list" id="accessibility-menu">
+						<li><a href="#content" accesskey="S">Go to main content [shortcut key S], by skipping navigation top bar, search box and navigation menu.</a></li>
+						<li><a href="#block-menu-primary-links">Go to navigation menu, by skipping navigation top bar and search box.</a></li>
+						<li><a href="#block-search-0">Go to search box, by skipping navigation top bar.</a></li>
+						<li><a href="#block-user-1">Go to navigation top bar.</a></li>
+						<li><a href="#block-quick-actions">Go to quick actions links, by skipping navigation top bar, search box, navigation menu and main content.</a></li>
+						<li><a href="#block-menu-secondary-links">Go to footer menu, by skipping navigation top bar, search box, navigation menu, main content and quick actions links.</a></li>
+					</ul>
+											<p class="off-screen">Service tools</p>
+						<div class="reset-list" id="services"><ul class="links"><li class="menu-515 first"><a href="/contact">Contact</a></li>
+<li class="menu-10327"><a href="/search/apachesolr_search?filters=sm_facetbuilder_facet_node_type%3A%22facet_node_type%3Afacet_24%22%20sm_facetbuilder_facet_node_type%3A%22facet_node_type%3A%22" title="Search">Search</a></li>
+<li class="menu-9310"><a href="/glossary">Glossary</a></li>
+<li class="menu-513"><a href="/help" title="Online Help" id="contextual-help-toggle">Help</a></li>
+<li class="menu-16001 last"><a href="/page/disclaimer-google-analytics">Analytics Disclaimer</a></li>
+</ul></div>
+										<ul class="reset-list language-selector-close">
+						<li class="selected">
+							<a lang="en" href="javascript:void(0)">
+								<span class="off-screen">Current language: </span>
+								English (en)<img border="0" alt="" src="/sites/all/themes/joinup/images/commission/arrows-up.gif" />
+							</a>
+						</li>
+					</ul>
+
+					<p class="off-screen">Additional tools</p>
+					<div class="print-tools">
+						<ul class="reset-list" id="additional-tools">
+							<li class="print"><a class="link-components" href="javascript:tools.printPage();" title="Print version"><img alt="Print version" src="/sites/all/themes/joinup/images/commission/print.gif" /></a> </li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			
+			<div id="path">
+				<p class="off-screen">Navigation path</p>
+				 <ul class="reset-list">
+					 <li class="first"><a href="http://ec.europa.eu/">European Commission</a> &#62; </li>
+					 <li><a href="http://ec.europa.eu/isa/">ISA</a> &#62; </li>
+					 <li><a href="/">Joinup</a></li>
+				</ul>
+			</div>
+			<div class="layout-body">
+				<div id="menu-wrapper">
+					<ul class="menu"><li class="leaf first menu-item_home"><a href="/homepage" id="menu_item_home" class="menu-item_text"><span class="main-menu-item-text">Home</span></a></li>
+<li class="collapsed menu-item_find_solutions"><a href="/interoperability/search" title="Interoperability Solutions" id="menu_item_find_solutions" class="menu-item_text"><span class="main-menu-item-text">Find solutions</span><span class="sub-menu-text">Interoperability Solutions</span></a></li>
+<li class="collapsed menu-item_share_and_collaborate"><a href="/community/all" title="Communities" id="menu_item_share_and_collaborate" class="menu-item_text"><span class="main-menu-item-text">Share and Collaborate</span><span class="sub-menu-text">Communities</span></a></li>
+<li class="expanded menu-item_keep_up_to_date"><a href="/news/all" title="News, events, cases, documents
+" id="menu_item_keep_up_to_date" class="menu-item_text"><span class="main-menu-item-text">Keep up-to-date</span><span class="sub-menu-text">News, events, cases, documents</span></a><ul class="menu"><li class="expanded first"><a href="/news/all" class="menu-item_text"><span class="main-menu-item-text">News</span></a><ul class="menu"><li class="leaf first"><a href="/news/recommended" class="menu-item_text"><span class="main-menu-item-text">Recommended</span></a></li>
+<li class="leaf"><a href="/news/editor" class="menu-item_text"><span class="main-menu-item-text">Editor's Choice</span></a></li>
+<li class="leaf last"><a href="/news/newsletter" class="menu-item_text"><span class="main-menu-item-text">Newsletter archives</span></a></li>
+</ul></li>
+<li class="expanded"><a href="/event/all" name="event" class="menu-item_text"><span class="main-menu-item-text">Events</span></a><ul class="menu"><li class="leaf first"><a href="/event/all" class="menu-item_text"><span class="main-menu-item-text">Browse upcoming</span></a></li>
+<li class="leaf"><a href="/event/archives" class="menu-item_text"><span class="main-menu-item-text">Browse archives </span></a></li>
+<li class="leaf"><a href="/event/recommended" class="menu-item_text"><span class="main-menu-item-text">Recommended</span></a></li>
+<li class="leaf last"><a href="/event/editor" class="menu-item_text"><span class="main-menu-item-text">Editor's Choice</span></a></li>
+</ul></li>
+<li class="expanded last"><a href="/elibrary/all" class="menu-item_text"><span class="main-menu-item-text">e-Library</span></a><ul class="menu"><li class="leaf first"><a href="/elibrary/cases" class="menu-item_text"><span class="main-menu-item-text">Cases</span></a></li>
+<li class="leaf"><a href="/elibrary/presentation" class="menu-item_text"><span class="main-menu-item-text">Presentations</span></a></li>
+<li class="leaf"><a href="/elibrary/factsheet" class="menu-item_text"><span class="main-menu-item-text">Factsheets</span></a></li>
+<li class="leaf"><a href="/elibrary/video" class="menu-item_text"><span class="main-menu-item-text">Web TV</span></a></li>
+<li class="leaf"><a href="/elibrary/document" class="menu-item_text"><span class="main-menu-item-text">Documents</span></a></li>
+<li class="leaf"><a href="/elibrary/recommended" class="menu-item_text"><span class="main-menu-item-text">Recommended</span></a></li>
+<li class="leaf last"><a href="/elibrary/editor" class="menu-item_text"><span class="main-menu-item-text">Editor's Choice</span></a></li>
+</ul></li>
+</ul></li>
+<li class="collapsed last menu-item_people"><a href="/people/all" title="Get in contact with professionals" id="menu_item_people" class="menu-item_text"><span class="main-menu-item-text">People</span><span class="sub-menu-text">Get in contact with professionals</span></a></li>
+</ul>				</div>
+				
+				
+				<div class="layout-wrapper fluid container_16">
+					<div class="layout-wrapper-reset clearfix">
+						
+						<div class="layout-content clearfix">
+							<div class="layout-content-reset">
+																						<div id="content" class="fluid-16 clearfix">
+																	       <div class="block-left clearfix">
+									   									   
+								       								       								       		<h2>Page not found</h2>
+								       								       <div class="help"></div>								       <div id="content-region" class="clearfix">
+									       <div class="view view-error-404 view-id-error_404 view-display-id-page_1 view-dom-id-1">
+    
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last clearfix">
+      
+  <div class="views-field-nothing">
+                <span class="field-content">	<div class="field field-unknown">The requested page could not be found.</div>
+</span>
+  </div>
+  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div> 								       </div>	<!-- /#content-region -->
+									   </div>
+								       								</div> 
+							</div>
+							
+						</div>
+						<div class="layout-right ">
+													    </div>
+                        					</div>
+				</div>
+				
+			  
+			</div>
+			 <div class="layout-footer">
+					<div id="footer" class="grid16col clearfix">
+						<div id="footer-region" class="colspan-16">
+														  
+<div id="block-block-12" class="block clearfix">
+		<div class="content">
+		<div class="content">
+	<a href="http://ec.europa.eu/isa/" target="_blank"><img alt="isa_logo" height="88" longdesc="http://ec.europa.eu/isa/" src="/sites/all/themes/joinup/images/logo/logo_isa.png" width="83" /></a></div>	</div>
+</div>
+  
+<div id="block-menu-menu-footer" class="block footer clearfix">
+			<h3 class="accessibility-info">Footer</h3>
+		<div class="content">
+		<ul class="menu"><li class="expanded first"><strong class="menu-footer-title">About</strong><ul class="menu"><li class="leaf first"><a href="http://ec.europa.eu/isa/" target="_blank" class="menu-item_text"><span class="main-menu-item-text">ISA Programme</span></a></li>
+<li class="leaf last"><a href="/page/legal-notice" class="menu-item_text"><span class="main-menu-item-text">Legal notice</span></a></li>
+</ul></li>
+<li class="expanded"><strong class="menu-footer-title">Joinup</strong><ul class="menu"><li class="leaf first"><a href="/page/about_us" class="menu-item_text"><span class="main-menu-item-text">About us</span></a></li>
+<li class="leaf"><a href="/page/our_services" class="menu-item_text"><span class="main-menu-item-text">Our services</span></a></li>
+<li class="leaf"><a href="/metrics" class="menu-item_text"><span class="main-menu-item-text">Metrics</span></a></li>
+<li class="leaf last"><a href="/page/get_involved" class="menu-item_text"><span class="main-menu-item-text">Get involved</span></a></li>
+</ul></li>
+<li class="expanded last"><strong class="menu-footer-title">Help</strong><ul class="menu"><li class="leaf first"><a href="/help" class="menu-item_text"><span class="main-menu-item-text">User help</span></a></li>
+<li class="leaf"><a href="/glossary" class="menu-item_text"><span class="main-menu-item-text">Glossary</span></a></li>
+<li class="leaf"><a href="/help_topics" class="menu-item_text"><span class="main-menu-item-text">FAQ</span></a></li>
+<li class="leaf"><a href="/sitemap" class="menu-item_text"><span class="main-menu-item-text">Sitemap</span></a></li>
+<li class="leaf last"><a href="/contact" class="menu-item_text"><span class="main-menu-item-text">Contact us</span></a></li>
+</ul></li>
+</ul>	</div>
+</div>
+  
+<div id="block-block-11" class="block clearfix">
+		<div class="content">
+		<div class="content">
+<ul class="menu">
+<li class="expanded first">
+                                                <strong class="menu-footer-title">Follow us on</strong>
+<ul class="menu">
+<li class="first social-twitter">
+                                                                                <a href="https://twitter.com/Joinup_eu" target="_blank">Twitter<em>@Joinup_eu</em></a></li>
+<li class="last social-linkedin">
+                                                                                <a href="http://www.linkedin.com/groups/Joinup-Osepa-open-source-community-2600644/about" target="_blank">Linkedin <em>Joinup/Osepa group</em></a></li>
+</ul>
+</li>
+</ul>
+</div>
+	</div>
+</div>
+  
+<div id="block-isa_blocks-36" class="block clearfix">
+		<div class="content">
+		<div id="last-update-footer">Last update: 18/02/2016,&nbsp;V1.8.4</div>	</div>
+</div>
+						</div>	<!-- /#footer-region -->
+						<div class="goto-top"><a onclick="window.scrollTo(0,0);">Top</a></div>
+					</div>
+			   </div>
+	</div>
+		<div class="context jqmID1" id="contextual-help-dialog" style="z-index: 3000; opacity: 1; display: none;"><a class="jqmClose" id="contextual-help-close" href="#">X</a><ul id="contextual-help-tabs"><li class="active" id="help-tab-0"><a href="#"><span>Current Page</span></a></li><li id="help-tab-1"><a href="#"><span>All Pages</span></a></li><li id="help-tab-2"><a href="#"><span>FAQ</span></a></li></ul><div id="contextual-help-content"><div id="help-content-0" style="display: block;">No context help available for this section</div><div id="help-content-1" style="display: none;">Loading....</div><div id="help-content-2" style="display: none;">Loading....</div></div></div><script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var _gaq = _gaq || [];_gaq.push(["_setAccount", "UA-40050586-1"]);_gaq.push(["_trackPageview", "/404.html?page=" + document.location.pathname + document.location.search + "&from=" + document.referrer]);(function() {var ga = document.createElement("script");ga.type = "text/javascript";ga.async = true;ga.src = ("https:" == document.location.protocol ? "https://ssl" : "http://www") + ".google-analytics.com/ga.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ga, s);})();
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var _paq = _paq || [];(function(){var u=(("https:" == document.location.protocol) ? "https://webgate.ec.europa.eu/fpfis/piwik/" : "https://webgate.ec.europa.eu/fpfis/piwik/");_paq.push(["setSiteId", 5]);_paq.push(["setTrackerUrl", u+"piwik.php"]);_paq.push(["setDocumentTitle", "404/URL = " + encodeURIComponent(document.location.pathname+document.location.search) + "/From = " + encodeURIComponent(document.referrer)]);_paq.push(["setDoNotTrack", 1]);_paq.push(['disableCookies']);_paq.push(["trackPageView"]);_paq.push(["setIgnoreClasses", ["no-tracking","colorbox"]]);_paq.push(["enableLinkTracking"]);var d=document,g=d.createElement("script"),s=d.getElementsByTagName("script")[0];g.type="text/javascript";g.defer=true;g.async=true;g.src=u+"piwik.js";s.parentNode.insertBefore(g,s);})();
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+if (typeof addthis != "undefined") {addthis.init();}
+//--><!]]>
+</script>
+	</body>
+</html>

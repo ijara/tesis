@@ -1,0 +1,178 @@
+Ir al texto principal Establecer idioma
+
+English  [en]   Afrikaans  [af]   العربية  [ar]   Azərbaycanca  [az]   български  [bg]   বাংলা  [bn]   català  [ca]   Česky  [cs]   dansk  [da]   Deutsch  [de]   ελληνικά  [el]   Esperanto  [eo]   español  [es]   فارسی  [fa]   français  [fr]   galego  [gl]   עברית  [he]   hrvatski  [hr]   magyar  [hu]   Bahasa Indonesia  [id]   italiano  [it]   日本語  [ja]   한국어  [ko]   lietuvių  [lt]   norsk (bokmål)  [nb]   Nederlands  [nl]   polski  [pl]   português do Brasil  [pt-br]   română  [ro]   русский  [ru]   slovenčina  [sk]   slovenščina  [sl]   српски  [sr]   svenska  [sv]   தமிழ்  [ta]   Tagalog  [tl]   Türkçe  [tr]   українська  [uk]   简体中文  [zh-cn]   繁體中文  [zh-tw]  
+
+¡Únase a la FSF!
+
+Boletín « Free Software Supporter »
+
+[Cabeza de GNU] El sistema operativo GNU
+
+Patrocinado por la Free Software Foundation
+
+    Acerca de GNU
+    Filosofía
+    Licencias
+    Educación
+    Software
+    Documentación
+    Ayude a GNU
+
+Esta es una traducción de la página original en inglés.
+¿Qué es el software libre?
+
+    El mantenimiento de esta página está a cargo de la Oficina de Licencias y Cumplimiento de la FSF. Puede apoyar nuestros esfuerzos mediante una donación a la FSF. Si no encuentra aquí la respuesta a alguna duda, consulte nuestros otros recursos para licencias o póngase en contacto con nosotros enviando un correo a licensing@fsf.org .
+
+Definición de software libre
+
+    La definición de software libre estipula los criterios que se tienen que cumplir para que un programa sea considerado libre. De vez en cuando modificamos esta definición para clarificarla o para resolver problemas sobre cuestiones delicadas. Más abajo en esta página, en la sección Historial , se puede consultar la lista de modificaciones que afectan la definición de software libre.
+
+«Software libre» es el software que respeta la libertad de los usuarios y la comunidad. A grandes rasgos, significa que los usuarios tienen la libertad de ejecutar, copiar, distribuir, estudiar, modificar y mejorar el software . Es decir, el «software libre» es una cuestión de libertad, no de precio. Para entender el concepto, piense en «libre» como en «libre expresión», no como en «barra libre». En inglés a veces decimos «libre software», en lugar de «free software», para mostrar que no queremos decir que es gratuito.
+
+Promovemos estas libertades porque todos merecen tenerlas. Con estas libertades, los usuarios (tanto individualmente como en forma colectiva) controlan el programa y lo que este hace. Cuando los usuarios no controlan el programa, decimos que dicho programa «no es libre», o que es «privativo». Un programa que no es libre controla a los usuarios, y el programador controla el programa, con lo cual el programa resulta ser un instrumento de poder injusto .
+
+Un programa es software libre si los usuarios tienen las cuatro libertades esenciales:
+
+    La libertad de ejecutar el programa como se desea, con cualquier propósito (libertad 0).
+    La libertad de estudiar cómo funciona el programa, y cambiarlo para que haga lo que usted quiera (libertad 1). El acceso al código fuente es una condición necesaria para ello.
+    La libertad de redistribuir copias para ayudar a su prójimo (libertad 2).
+    La libertad de distribuir copias de sus versiones modificadas a terceros (libertad 3). Esto le permite ofrecer a toda la comunidad la oportunidad de beneficiarse de las modificaciones. El acceso al código fuente es una condición necesaria para ello.
+
+Un programa es software libre si otorga a los usuarios todas estas libertades de manera adecuada. De lo contrario no es libre. Existen diversos esquemas de distribución que no son libres, y si bien podemos distinguirlos en base a cuánto les falta para llegar a ser libres, nosotros los consideramos contrarios a la ética a todos por igual.
+
+En cualquier circunstancia, estas libertades deben aplicarse a todo código que se planee usar o hacer que otros lo usen. Tomemos por ejemplo un programa A que automáticamente ejecuta un programa B para que realice alguna tarea. Si se tiene la intención de distribuir A tal cual, esto implica que los usuarios necesitarán B, de modo que es necesario considerar si tanto A como B son libres. No obstante, si se piensa modificar A para que no haga uso de B, solo A debe ser libre y se puede ignorar B.
+
+En el resto de esta página tratamos algunos puntos que aclaran qué es lo que hace que las libertades específicas sean adecuadas o no.
+
+La libertad para distribuir (libertades 2 y 3) significa que usted tiene la libertad para redistribuir copias con o sin modificaciones, ya sea gratuitamente o cobrando una tarifa por la distribución, a cualquiera en cualquier parte . Ser libre de hacer esto significa, entre otras cosas, que no tiene que pedir ni pagar ningún permiso para hacerlo.
+
+También debe tener la libertad de hacer modificaciones y usarlas en privado para su propio trabajo o pasatiempo, sin siquiera mencionar que existen. Si publica sus cambios, no debe estar obligado a notificarlo a nadie en particular, ni de ninguna manera en particular.
+
+La libertad de ejecutar el programa significa que cualquier tipo de persona u organización es libre de usarlo en cualquier tipo de sistema de computación, para cualquier tipo de trabajo y finalidad, sin que exista obligación alguna de comunicarlo al programador ni a ninguna otra entidad específica. En esta libertad, lo que importa es el propósito del usuario , no el del programador . Usted como usuario es libre de ejecutar el programa para alcanzar sus propósitos, y si lo distribuye a otra persona, también esa persona será libre de ejecutarlo para lo que necesite; usted no tiene el derecho de imponerle sus propios objetivos a la otra persona.
+
+La libertad de ejecutar el programa como se desea significa que al usuario no se le prohíbe o no se le impide hacerlo. No tiene nada que ver con el tipo de funcionalidades que el programa posee ni con el hecho de que el programa sea o no sea útil para lo que se quiere hacer.
+
+La libertad de redistribuir copias debe incluir las formas binarias o ejecutables del programa, así como el código fuente, tanto para las versiones modificadas como para las que no lo estén. (Distribuir programas en forma de ejecutables es necesario para que los sistemas operativos libres se puedan instalar fácilmente). Resulta aceptable si no existe un modo de producir un formato binario o ejecutable para un programa específico, dado que algunos lenguajes no incorporan esa característica, pero debe tener la libertad de redistribuir dichos formatos si encontrara o programara una forma de hacerlo.
+
+Para que las libertades 1 y 3 (realizar cambios y publicar las versiones modificadas) tengan sentido, usted debe tener acceso al código fuente del programa. Por consiguiente, el acceso al código fuente es una condición necesaria para el software libre. El «código fuente» ofuscado no es código fuente real y no cuenta como código fuente.
+
+La libertad 1 incluye la libertad de usar su versión modificada en lugar de la original. Si el programa se entrega unido a un producto diseñado para ejecutar versiones modificadas por terceros, pero rechaza ejecutar las suyas —práctica conocida como « tivoización » o «bloqueo», o (según la terminología perversa de quienes lo practican) «arranque seguro»—, la libertad 1 se convierte en una vana simulación más que una realidad práctica. Estos binarios no son software libre, aun cuando se hayan compilado a partir de un código fuente libre.
+
+Una manera importante de modificar el programa es agregándole subrutinas y módulos libres ya disponibles. Si la licencia del programa especifica que no se pueden añadir módulos que ya existen y que están bajo una licencia apropiada, por ejemplo si requiere que usted sea el titular del copyright del código que desea añadir, entonces se trata de una licencia demasiado restrictiva como para considerarla libre.
+
+La libertad 3 incluye la libertad de publicar sus versiones modificadas como software libre. Una licencia libre también puede autorizar otras formas de publicación; en otras palabras, no tiene que ser una licencia con copyleft . No obstante, una licencia que requiera que las versiones modificadas no sean libres, no se puede considerar libre.
+
+Para que estas libertades sean reales, deben ser permanentes e irrevocables siempre que usted no cometa ningún error; si el programador del software tiene el poder de revocar la licencia, o de añadir restricciones a las condiciones de uso en forma retroactiva, sin que haya habido ninguna acción de parte del usuario que lo justifique, el software no es libre.
+
+Sin embargo, ciertos tipos de reglas sobre la manera de distribuir software libre son aceptables, cuando no entran en conflicto con las libertades principales. Por ejemplo, el copyleft , definido muy resumidamente, es la regla en base a la cual, cuando redistribuye el programa, no se puede agregar restricciones para denegar a los demás las libertades principales. Esta regla no entra en conflicto con las libertades principales, más bien las protege.
+
+En el proyecto GNU usamos el copyleft para proteger legalmente las cuatro libertades para todos. Creemos que existen razones importantes por las que es mejor usar el copyleft . De todos modos, el software libre sin copyleft también es ético. Véase en categorías del software libre una descripción de la relación que existe entre el «software libre», «software con copyleft» y otros tipos de software.
+
+«Software libre» no significa que «no es comercial». Un programa libre debe estar disponible para el uso comercial, la programación comercial y la distribución comercial. La programación comercial de software libre ya no es inusual; el software libre comercial es muy importante. Puede haber pagado dinero para obtener copias de software libre, o puede haber obtenido copias sin costo. Pero sin tener en cuenta cómo obtuvo sus copias, siempre tiene la libertad de copiar y modificar el software, incluso de vender copias .
+
+Si una modificación constituye o no una mejora, es un asunto subjetivo. Si su derecho a modificar un programa se limita, básicamente, a modificaciones que alguna otra persona considera una mejora, el programa no es libre.
+
+No obstante, eventuales reglas sobre cómo empaquetar una versión modificada son aceptables si no limitan substancialmente su libertad para publicar versiones modificadas, o su libertad para hacer y usar versiones modificadas en privado. Así, es aceptable que una licencia le obligue a cambiar el nombre de la version modificada, eliminar el logotipo o identificar sus modificaciones como suyas. Son aceptables siempre y cuando esas obligaciones no sean tan agobiantes que le dificulten la publicación de las modificaciones. Como ya está realizando otras modificaciones al programa, no le supondrá un problema hacer algunas más.
+
+Las reglas del tipo «si pone a disposición su versión de este modo, también debe hacerlo de este otro modo» también pueden ser, bajo la misma condición, admisibles. Un ejemplo de una regla admisible sería alguna que requiera que, si usted ha distribuido una versión modificada y uno de los programadores anteriores le solicita una copia, usted deba enviársela (tenga en cuenta que tal regla le sigue permitiendo optar por distribuir o no distribuir su versión). Las reglas que obligan a suministrar el código fuente a los usuarios de las versiones publicadas también son admisibles.
+
+Un problema particular se presenta cuando la licencia requiere que a un programa se le cambie el nombre con el cual será invocado por otros programas. De hecho este requisito dificulta la publicación de la versión modificada para reemplazar al original cuando sea invocado por esos otros programas. Este tipo de requisitos es aceptable únicamente cuando exista un instrumento adecuado para la asignación de alias que permita especificar el nombre del programa original como un alias de la versión modificada.
+
+En algunos casos las normas de control de exportación y las sanciones comerciales impuestas por el Gobierno pueden limitar la libertad de distribuir copias de los programas a nivel internacional. Los desarrolladores de software no tienen el poder de eliminar o pasar por alto estas restricciones, pero lo que sí pueden y deben hacer es rehusar imponerlas como condiciones para el uso del programa. De este modo, las restricciones no afectarán las actividades ni a las personas fuera de las jurisdicciones de tales Gobiernos. Por tanto, las licencias de software libre no deben requerir la obediencia a ninguna norma de exportación que no sea trivial como condición para ejercer cualquiera de las libertades esenciales.
+
+La mera mención de la existencia de normas de exportación, sin ponerlas como condición de la licencia misma, es aceptable ya que esto no restringe a los usuarios. Si una norma de exportación es de hecho trivial para el software libre, ponerla como condición no constituye un problema real; sin embargo, es un problema potencial ya que un futuro cambio en la ley de exportación podría hacer que el requisito dejara de ser trivial y que el software dejara de ser libre.
+
+Una licencia libre no puede exigir la conformidad con la licencia de un programa que no es libre. Así, por ejemplo, si una licencia requiere que se cumpla con las licencias de «todos los programas que se usan», en el caso de un usuario que ejecuta programas que no son libres este requisito implicaría cumplir con las licencias de esos programas privativos, lo cual hace que la licencia no sea libre.
+
+Es aceptable que una licencia especifique la jurisdicción de competencia o la sede para la resolución de conflictos, o ambas cosas.
+
+La mayoría de las licencias de software libre están basadas en el copyright, y existen límites en los tipos de requisitos que se pueden imponer a través del copyright. Si una licencia basada en el copyright respeta la libertad en las formas antes mencionadas, es poco probable que surja otro tipo de problema que no hayamos anticipado (a pesar de que esto ocurre ocasionalmente). Sin embargo, algunas licencias de software libre están basadas en contratos, y los contratos pueden imponer un rango mucho más grande de restricciones. Esto significa que existen muchas maneras posibles de que tal licencia sea inaceptablemente restrictiva y que no sea libre.
+
+Nos resulta imposible enumerar todas las formas en las que eso puede suceder. Si una licencia basada en un contrato restringe al usuario de un modo que no se puede hacer con las licencias basadas en el copyright, y que no está mencionado aquí como legítimo, tendremos que analizar el caso, y probablemente concluyamos que no es libre.
+
+Cuando se habla de software libre, es mejor evitar usar términos como «regalar» o «gratuito», porque dichos términos implican que el asunto es el precio, no la libertad. Algunos términos comunes como «piratería» implican opiniones con las que esperamos no concuerde. Véase un análisis sobre el uso de esos términos en nuestro artículo palabras y frases confusas que vale la pena evitar . También tenemos una lista de las traducciones correctas de «software libre» a varios idiomas.
+
+Por último, tenga en cuenta que para interpretar criterios tales como los que se establecen en esta definición de software libre, se hace necesario un cuidadoso análisis. Para decidir si una licencia de software específica es una licencia de software libre, la evaluamos en base a estos criterios para determinar si concuerda tanto con el espíritu de los mismos como con la terminología precisa. Si una licencia incluye restricciones inaceptables, la rechazamos, aun cuando no hubiéramos anticipado el problema en estos criterios. A veces los requisitos de una licencia revelan una cuestión que hace necesaria una reflexión más profunda, incluyendo la discusión con un abogado, antes de que podamos decidir si el requisito es aceptable. Cuando llegamos a una conclusión sobre una nueva cuestión, solemos actualizar estos criterios para que resulte más fácil ver por qué una cierta licencia puede o no ser calificada como libre.
+
+Si está interesado en saber si una licencia específica está calificada como licencia de software libre, consulte nuestra lista de licencias . Si la licencia que busca no está en la lista, puede consultarnos enviándonos un correo electrónico a <licensing@gnu.org> .
+
+Si está considerando escribir una nueva licencia, por favor contacte a la FSF escribiendo a esa dirección. La proliferación de distintas licencias de software libre significa mayor esfuerzo por parte de los usuarios para entenderlas; podemos ayudarle a encontrar una licencia de software libre que ya exista y que satisfaga sus necesidades.
+
+Si eso no fuera posible, si realmente necesita una nueva licencia, con nuestra ayuda puede asegurarse de que la licencia sea realmente una licencia de software libre y evitar varios problemas en la práctica.
+Más allá del software
+
+Los manuales de software deben ser libres por las mismas razones que el software debe ser libre, y porque de hecho los manuales son parte del software.
+
+También tiene sentido aplicar los mismos argumentos a otros tipos de obras de uso práctico; es decir, obras que incorporen conocimiento útil, tal como publicaciones educativas y de referencia. La Wikipedia es el ejemplo más conocido.
+
+Cualquier tipo de obra puede ser libre, y la definición de software libre se ha extendido a una definición de obras culturales libres aplicable a cualquier tipo de publicación.
+¿Código abierto?
+
+Otro grupo emplea el término «código abierto» (del inglés « open source »), que significa algo parecido (pero no idéntico) a «software libre». Preferimos el término «software libre» porque una vez que ya se sabe que se refiere a la libertad y no al precio, evoca la idea de libertad. La palabra «abierto» nunca se refiere a la libertad .
+Historial
+
+De vez en cuando modificamos esta definición de software libre. Esta es la lista de los cambios más significativos, con enlaces a páginas que muestran exactamente lo que se ha modificado.
+
+    Version 1.141 : Expresar más claramente qué código debe ser libre.
+    Versión 1.135 : Mencionar en cada caso que la libertad 0 es la libertad de ejecutar el programa como se desea.
+    Versión 1.134 : La libertad 0 no se refiere a las funcionalidades del programa.
+    Versión 1.131 : Una licencia libre no puede exigir la conformidad con una licencia de otro programa que no es libre .
+    Versión 1.129 : Especificar que está permitido determinar la jurisdicción y el foro judicial de competencia (esta siempre ha sido nuestra política).
+    Versión 1.122 : Un requisito de control de las exportaciones constituye un problema real si dicho requisito no es trivial; en caso contrario se trata únicamente de un problema potencial.
+    Versión 1.118 : Aclarar que el problema consiste en los límites a la libertad para modificar, no al tipo de modificación que se ha hecho. Y las modificaciones no se limitan a las «mejoras».
+    Versión 1.111 : Aclaración sobre la versión 1.77; se especifica que únicamente las restricciones retroactivas son inaceptables. Los titulares del copyright siempre pueden conceder permisos adicionales para utilizar la obra publicándola paralelamente con una modalidad diferente.
+    Versión 1.105 : Modificación del breve comentario sobre la libertad 1 (que ya se había introducido en la versión 1.80) para expresar que dicha libertad significa que el usuario puede usar una versión modificada por él mismo para realizar sus tareas de computación.
+    Versión 1.92 : Aclarar que el código fuente ofuscado no se puede considerar código fuente.
+    Versión 1.90 : Aclarar que la libertad 3 significa el derecho de distribuir copias de sus propias versiones modificadas o mejoradas, no el derecho de participar en el proyecto de otra persona.
+    Versión 1.89 : La libertad 3 incluye el derecho de publicar versiones modificadas como software libre.
+    Versión 1.80 : La primera libertad debe ser práctica, no meramente teórica. Por ejemplo, nada de « tivoización ».
+    Versión 1.77 : Aclarar que todos los cambios retroactivos a la licencia son inaceptables, aun cuando no se describen como un reemplazo completo.
+    Versión 1.74 : Cuatro aclaraciones sobre puntos no del todo explícitos, o que se expresan en algunos casos pero no en todos están definidos:
+        «Mejoras» no significa que la licencia puede limitar sustancialmente el tipo de versiones modificadas que usted puede publicar. La libertad 3 incluye la distribución de versiones modificadas, no solo de los cambios.
+        El derecho a fusionar módulos existentes se refiere a aquellos que estén debidamente licenciados.
+        Expresar de manera explícita la conclusión del punto sobre los controles de exportación.
+        Imponer un cambio de licencia constituye una revocación de la antigua licencia.
+    Versión 1.57 : Agregada la sección «Más allá del software».
+    Versión 1.46 : Aclarar que en la libertad para ejecutar el programa para cualquier propósito lo que importa es el propósito del usuario.
+    Versión 1.41 : Expresar más claramente el punto sobre las licencias basadas en contratos.
+    Versión 1.40 : Explicar que una licencia libre debe permitirle usar otro software libre disponible para hacer sus modificaciones.
+    Versión 1.39 : Aclarar que es aceptable que una licencia requiera la entrega del código fuente para las versiones del software que se pongan a disposición del público.
+    Versión 1.31 : Es aceptable que una licencia requiera que el autor de las modificaciones se identifique como tal. Otras aclaraciones menores en el texto.
+    Versión 1.23 : Mencionar posibles problemas con las licencias basadas en contratos.
+    Versión 1.16 : Explicar por qué la distribución de los binarios es importante.
+    Versión 1.11 : Una licencia libre puede exigirle que envíe al autor una copia de las versiones modificadas que usted distribuye.
+
+Hay brechas entre los números de versión mencionados anteriormente porque existen otros cambios que se han realizado en esta página pero que no atañen a la definición misma o sus interpretaciones. Por ejemplo, no se incluyen los cambios en los apartados, formateo, ortografía, puntuación u otras partes de la página. La lista completa de los cambios aportados a esta página puede consultarse mediante la interfaz cvsweb .
+
+    Página inicial de GNU
+    Sitio de la FSF
+    Arte de GNU
+    ¿Quién es GNUien?
+    Directorio de software libre
+    Hardware
+    Mapa del sitio
+
+    [Logotipo de la FSF] «Nuestra misión es preservar, proteger y promover la libertad de usar, estudiar, copiar, modificar y redistribuir programas de ordenador, así como defender los derechos de los usuarios de software libre.»
+
+La Free Software Foundation es la principal organización que patrocina el Sistema Operativo GNU. Apoye a GNU y la FSF mediante la compra de manuales y otros artículos , uniéndose a la FSF como miembro asociado o haciendo una donación , ya sea directamente a la FSF o mediante Flattr .
+
+volver arriba
+
+Envíe sus consultas acerca de la FSF y GNU a <gnu@gnu.org> . Existen también otros medios para contactar con la FSF.
+Para avisar de enlaces rotos y proponer otras correcciones o sugerencias, diríjase a <webmasters@gnu.org> .
+
+El equipo de traductores al español se esfuerza por ofrecer traducciones fieles al original y de buena calidad, pero no estamos libres de cometer errores.
+Por favor envíe sus comentarios y sugerencias sobre las traducciones a <web-translators@gnu.org> .
+
+Consulte la Guía para las traducciones para obtener información sobre la coordinación y el envío de traducciones de las páginas de este sitio web.
+
+Copyright © 1996, 2002, 2004-2007, 2009-2016 Free Software Foundation, Inc.
+
+Esta página está bajo licencia Creative Commons Reconocimiento-SinObraDerivada 4.0 Internacional .
+
+Notificar violación del copyright
+
+Para obtener información sobre cómo traducir al español las páginas de este sitio web, consulte la Guía para la traducción al español de las páginas de gnu.org .
+Traducción: Luis Miguel Arteaga Mejía, 2001. Revisiones: Hernán Giovagnoli, Daniel (lluvia).
+
+Última actualización: $Date: 2016/01/02 23:31:05 $

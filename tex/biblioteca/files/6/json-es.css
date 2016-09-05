@@ -1,0 +1,12 @@
+
+/* ::::: null ::::: */
+
+body { background-color: linen; padding-left: 5%; padding-right: 5%; }
+ul ul { list-style: outside none disc; }
+hr { background-color: black; border: 0px none; color: black; height: 2px; padding: 0px; }
+a { text-decoration: none; }
+a:link { color: navy; }
+a:visited { color: maroon; }
+a:hover { color: blue; text-decoration: underline; }
+a:active { color: red; }
+tt { font-family: monospace; font-weight: bold; }

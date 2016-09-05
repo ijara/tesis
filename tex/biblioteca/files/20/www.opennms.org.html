@@ -1,0 +1,308 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en-US" xmlns="http://www.w3.org/1999/xhtml">
+<head profile="http://gmpg.org/xfn/11">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+
+<meta name="wpd_version" content="0.2">
+<meta name="wpd_baseurl" content="http://www.opennms.org/">
+<meta name="wpd_url" content="http://www.opennms.org/">
+<meta name="wpd_date" content="2016-03-02T17:09Z">
+
+  <title> The OpenNMS Project</title>
+  
+  <link rel="pingback" href="http://www.opennms.org/xmlrpc.php">
+  
+  <script src="ga.js" async="" type="text/javascript"></script><script type="text/javascript" src="untitled" gajax.googleapis.com="" ajax="" libs="" jquery="" 1="" jquery.js"=""></script>
+  <script type="text/javascript" src="scripts.js"></script>
+  		<script type="text/javascript">
+
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/www.opennms.org\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.4.2"}};
+			!function(a,b,c){function d(a){var c,d=b.createElement("canvas"),e=d.getContext&&d.getContext("2d"),f=String.fromCharCode;return e&&e.fillText?(e.textBaseline="top",e.font="600 32px Arial","flag"===a?(e.fillText(f(55356,56806,55356,56826),0,0),d.toDataURL().length>3e3):"diversity"===a?(e.fillText(f(55356,57221),0,0),c=e.getImageData(16,16,1,1).data.toString(),e.fillText(f(55356,57221,55356,57343),0,0),c!==e.getImageData(16,16,1,1).data.toString()):("simple"===a?e.fillText(f(55357,56835),0,0):e.fillText(f(55356,57135),0,0),0!==e.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag"),unicode8:d("unicode8"),diversity:d("diversity")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag&&c.supports.unicode8&&c.supports.diversity||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script><script type="text/javascript" src="wp-emoji-release.min.js"></script>
+		
+
+<!-- This site uses the Google Analytics by Yoast plugin v5.4.6 - Universal disabled - https://yoast.com/wordpress/plugins/google-analytics/ -->
+<script type="text/javascript">
+
+
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-2133604-1']);
+	_gaq.push(['_gat._forceSSL']);
+	_gaq.push(['_trackPageview']);
+
+	(function () {
+		var ga = document.createElement('script');
+		ga.type = 'text/javascript';
+		ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0];
+		s.parentNode.insertBefore(ga, s);
+	})();
+
+</script>
+<!-- / Google Analytics by Yoast -->
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="jquery-migrate.min.js"></script>
+<script type="text/javascript" src="core.min.js"></script>
+<script type="text/javascript" src="widget.min.js"></script>
+<script type="text/javascript" src="position.min.js"></script>
+<script type="text/javascript" src="mouse.min.js"></script>
+<script type="text/javascript" src="sortable.min.js"></script>
+<script type="text/javascript" src="datepicker.min.js"></script>
+<script type="text/javascript" src="menu.min.js"></script>
+<script type="text/javascript" src="autocomplete.min.js"></script>
+<script type="text/javascript" src="resizable.min.js"></script>
+<script type="text/javascript" src="draggable.min.js"></script>
+<script type="text/javascript" src="button.min.js"></script>
+<script type="text/javascript" src="dialog.min.js"></script>
+<script type="text/javascript">
+
+/* <![CDATA[ */
+var EM = {"ajaxurl":"http:\/\/www.opennms.org\/wp-admin\/admin-ajax.php","locationajaxurl":"http:\/\/www.opennms.org\/wp-admin\/admin-ajax.php?action=locations_search","firstDay":"1","locale":"en","dateFormat":"dd\/mm\/yy","ui_css":"http:\/\/www.opennms.org\/wp-content\/plugins\/events-manager\/includes\/css\/jquery-ui.min.css","show24hours":"0","is_ssl":"","txt_search":"Search","txt_searching":"Searching...","txt_loading":"Loading...","event_reschedule_warning":"Are you sure you want to reschedule this recurring event? If you do this, you will lose all booking information and the old recurring events will be deleted.","event_detach_warning":"Are you sure you want to detach this event? By doing so, this event will be independent of the recurring set of events.","delete_recurrence_warning":"Are you sure you want to delete all recurrences of this event? All events will be moved to trash."};
+/* ]]> */
+</script>
+<script type="text/javascript" src="events-manager.js"></script>
+<link rel="https://api.w.org/" href="http://www.opennms.org/wp-json/">
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.opennms.org/xmlrpc.php?rsd">
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.opennms.org/wp-includes/wlwmanifest.xml"> 
+<meta name="generator" content="WordPress 4.4.2">
+<link rel="canonical" href="http://www.opennms.org/">
+<link rel="shortlink" href="http://www.opennms.org/">
+
+<!-- Bad Behavior 2.2.18 run time: 1.768 ms -->
+<script type="text/javascript">
+
+<!--
+function bb2_addLoadEvent(func) {
+	var oldonload = window.onload;
+	if (typeof window.onload != 'function') {
+		window.onload = func;
+	} else {
+		window.onload = function() {
+			oldonload();
+			func();
+		}
+	}
+}
+
+bb2_addLoadEvent(function() {
+	for ( i=0; i < document.forms.length; i++ ) {
+		if (document.forms[i].method == 'post') {
+			var myElement = document.createElement('input');
+			myElement.setAttribute('type', 'hidden');
+			myElement.name = 'bb2_screener_';
+			myElement.value = '1459616950 186.107.105.131';
+			document.forms[i].appendChild(myElement);
+		}
+	}
+});
+// --></script>
+		
+<!-- Start Of Script Generated By cforms v11.5 [Oliver Seidel | www.deliciousdays.com] -->
+
+<script type="text/javascript" src="cforms.js"></script>
+<!-- End Of Script Generated By cforms -->
+
+ 
+<link rel="stylesheet" type="text/css" href="www.opennms.org.css" media="all">
+</head>
+<body class="home">
+  <div id="header-container">
+   <div id="header">
+    <a href="http://www.opennms.org/"><img alt="The OpenNMS Project" id="logo" src="logo.png"></a>
+
+    <ul id="main-menu">
+     <li><a href="http://www.opennms.org/">Home</a></li>
+     <li><a href="http://www.opennms.org/about">About OpenNMS</a></li>
+<li><a href="http://www.opennms.org/get-opennms">Get OpenNMS</a></li>
+<li><a href="http://www.opennms.org/get-support">Get Support</a></li>
+<li><a href="http://www.opennms.org/get-involved">Get Involved</a></li>
+<li><a href="http://www.opennms.org/get-stuff">Get Stuff</a></li>
+    </ul>
+
+    <div id="utility-and-phone">
+     <ul id="utility-menu">
+      <li><a href="http://www.opennms.org/wiki">Wiki</a> |</li>
+      <li><strong><a href="http://demo.opennms.org/">Live Demo</a></strong> |</li>
+      <li><a href="http://www.opennms.org/blog/category/events/">Events</a> |</li>
+      <li><a href="http://www.opennms.org/blog/category/news/">News</a> |</li>
+      <li><a href="http://www.opennms.com/contact">Contact Us</a></li>
+     </ul>
+     <p id="phone-support">Enterprise Support: <strong>(877) ONMS-911</strong></p>
+    </div>
+
+    <form action="http://www.opennms.org/wiki/Special:Search" id="search-form" method="get">
+     <input id="search-field" name="search" type="text">
+     <input id="search-submit" src="search-submit-button.png" type="image">
+    </form>
+
+    <ul id="site-jump">
+     <li><a href="http://www.opennms.com/">.COM</a> |</li>
+     <li><a class="current" href="http://www.opennms.org/">.ORG</a></li>
+    </ul>
+
+    <ul id="social-media-menu">
+     <li><a href="http://www.facebook.com/pages/OpenNMS/99923325046"><img alt="Facebook" src="facebook-icon.png"></a></li>
+     <li><a href="http://twitter.com/opennms"><img alt="Twitter" src="twitter-icon.png"></a></li>
+     <!--<li><a href="http://identi.ca/opennms"><img alt="identi.ca" src="http://www.opennms.org/wp-content/themes/opennms/images/q-icon.png" /></a></li>-->
+    </ul>
+   </div>
+  </div>
+<!--
+    <div id="opennms-conference" align="center">
+         <a href="http://www.opennms.eu/ouce-2015/"><img src="/wp-content/themes/opennms/images/OUCE-2015-Banner.png" alt="OpenNMS Users Conference" /></a>
+    </div>
+-->
+
+
+  <div id="content-container">
+   <div id="content">
+
+    <div id="page-header">
+     <a href="http://www.opennms.org/get-opennms"><img alt="Download Now" id="download-now" src="download-now.png"></a>
+<!--
+     <a href="#"><img alt="Download Now" id="take-the-tour" src="http://www.opennms.org/wp-content/themes/opennms/images/take-the-tour.png" /></a>
+-->
+     <a href="http://www.opennms.org/get-support"><img alt="Get Support" id="get-support" src="get-support-button.png"></a>
+     <a href="http://www.opennms.org/get-involved"><img alt="Get Involved" id="get-involved" src="get-involved-button.png"></a>
+    </div>
+
+    <div id="features-and-headaches">
+     <div id="features-list">
+        <strong><a href="http://demo.opennms.org/">See a Live Demo</a></strong><br>
+     </div>
+     <div id="features-list">
+      <h3>OpenNMS provides ...</h3>
+      <ul class="check-list">
+	<li>Automated and Directed Discovery and Provisioning</li>
+	<li>Event and Notification Management</li>
+	<li>Service Assurance</li>
+	<li>Performance Measurement</li>
+      </ul>
+      <a class="arrow-link" href="http://www.opennms.org/about">Learn More</a>
+     </div>
+
+     <div id="headaches-list">
+      <h3>OpenNMS is free, open source software.</h3>
+      <ul class="check-list">
+       <li>There are no license keys.</li>
+       <li>There are no maintenance or upgrade costs either.</li>
+       <li>You can download, examine, modify and distribute the source code.</li>
+       <li><a href="http://www.opennms.com/">Commercial support, development, training, and professional services</a> are available.</li>
+      </ul>
+     </div>
+    </div>
+
+    <div id="main-content">
+<!--
+<p>Check out our World IPv6 Summary Graph</p>
+<iframe class="measurements" src="http://wipv6day.opennms.org:8980/opennms/ipv6Summary/index.html" style="width:440px;height:470px;border:0px solid #fff"></iframe>
+-->
+     <h2 id="about-opennms">Get the Network to Work® with OpenNMS!</h2><p>OpenNMS is the <strong>world’s first enterprise grade network management application platform developed under the open source model</strong>.</p>
+<p>Well, what does that mean?</p>
+<p><strong>World’s First:</strong> The OpenNMS Project was started in July of 1999 and registered on <a href="http://sourceforge.net/projects/opennms/" onclick="_gaq.push(['_trackEvent', 'outbound-article', 'http://sourceforge.net/projects/opennms/', 'SourceForge']);">SourceForge</a> in March of 2000. It has years of experience on the alternatives.</p>
+<p><strong>Enterprise Grade:</strong> It was designed from “day one” to monitor tens of thousands to ultimately unlimited devices with a single instance. It brings the power, scalability and flexibility that enterprises and carriers demand.</p>
+<p><strong>Application Platform:</strong> While OpenNMS is useful “out of the box,”it is designed to be highly customizable to create an unique and integrated management solution.</p>
+<p><strong>Open Source:</strong> OpenNMS is 100% Free and Open Source software, with no license fees, software subscriptions or special “enterprise” versions.</p>
+<p>Leverage the value of an truly open source project with an active community. Download OpenNMS now, check out <a href="http://www.opennms.org/wiki">the wiki</a>, and join the <a href="http://www.opennms.org/wiki/Mailing_lists">discussion</a>.</p>
+<p>Need more help? <a href="http://www.opennms.com/" onclick="_gaq.push(['_trackEvent', 'outbound-article', 'http://www.opennms.com', 'The OpenNMS Group']);">The OpenNMS Group</a> provides commercial support, consulting, development and training on OpenNMS to create a custom solution made to fit business processes, and not one that requires business processes to fit the tool.</p>
+<p><!-- Google Code for opennms.org site Remarketing List --><br>
+<script type="text/javascript">
+
+/* < ![CDATA[ */
+var google_conversion_id = 1034747419;
+var google_conversion_language = "en";
+var google_conversion_format = "3";
+var google_conversion_color = "666666";
+var google_conversion_label = "-GpxCIGsygEQm_yz7QM";
+var google_conversion_value = 0;
+/* ]]&gt; */
+</script><br>
+<script type="text/javascript" src="conversion.js">
+</script><br>
+<noscript></p>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="http://www.googleadservices.com/pagead/conversion/1034747419/?label=-GpxCIGsygEQm_yz7QM&amp;guid=ON&amp;script=0"/>
+</div>
+<p></noscript></p>
+
+     <div id="events">
+      <h3> Events</h3>
+      <ul class="post-list">
+               <li><a href="http://www.opennms.org/blog/2015/03/12/posscon/" rel="bookmark"> POSSCON </a></li>
+               <li><a href="http://www.opennms.org/blog/2015/03/06/kickstart-workshop-in-berlin/" rel="bookmark"> Kickstart Workshop in Berlin </a></li>
+               <li><a href="http://www.opennms.org/blog/2015/02/26/chemnitzer-linux-tage-2015/" rel="bookmark"> Chemnitzer Linux Tage 2015 </a></li>
+            </ul>
+      <a class="arrow-link" href="http://www.opennms.org/events">View All</a>
+     </div>
+
+    </div>
+
+    <div id="engagement-options">
+     <a href="http://www.opennms.org/get-opennms"><img alt="Get OpenNMS" id="get-opennms-button" src="get-opennms-engage-button.png"></a>
+     <a href="http://www.opennms.org/get-support"><img alt="Get Support" id="get-support-button" src="get-support-engage-button.png"></a>
+     <a href="http://www.opennms.org/get-involved"><img alt="Get Involved" id="get-involved-button" src="get-involved-engage-button.png"></a>
+     <div id="stay-connected">
+      <h3>Stay Connected</h3>
+      <p>Get the latest on OpenNMS News and Events!</p>
+      <form action="http://feedburner.google.com/fb/a/mailverify" id="subscribe-form" method="post" target="popupwindow" onsubmit="window.open('http://feedburner.google.com/fb/a/mailverify?uri=TheOpenNMSProject', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true">
+       <input value="TheOpenNMSProject" name="uri" type="hidden">
+       <input name="loc" value="en_US" type="hidden">
+       <input id="email-field" name="email" type="text">
+       <input id="email-submit" src="subscribe-button.png" type="image">
+      <input value="1459616950 186.107.105.131" name="bb2_screener_" type="hidden"></form>
+     </div>
+<!--
+     <div id="mouth-of-opennms" style="padding-top: 20px; padding-bottom: 20px">
+      <a href="http://www.adventuresinoss.com"><img style="display: block; margin-left: auto; margin-right: auto;" src="/images/mouth.png" alt="The Mouth of OpenNMS Blog" /></a>
+     </div>
+     <div id="devjam-sponsors">
+      <table cellpadding="0" cellspacing="0" border="0" style="border: 0px; margin: auto; padding-top: 10px; padding-bottom: 20px">
+       <tr><td><a href="http://www.opennms.org/wiki/Dev-Jam_2010"><img src="/wp-content/themes/opennms/images/tag-devjam-2010.png" /></a></td></tr>
+       <tr><td><a href="http://www.google.com/"><img src="/wp-content/themes/opennms/images/tag-devjam-google.png" /></a></td></tr>
+       <tr><td><a href="http://www.sourcesense.com/"><img src="/wp-content/themes/opennms/images/tag-devjam-sourcesense.png" /></a></td></tr>
+       <tr><td><a href="http://www.papajohns.com/"><img src="/wp-content/themes/opennms/images/tag-devjam-papajohns.png" /></a></td></tr>
+       <tr><td><img src="/wp-content/themes/opennms/images/tag-devjam-bottom.png" /></td></tr>
+      </table>
+     </div>
+-->
+    </div>
+
+    <div class="clear"></div>
+   </div>
+  </div>
+
+  <div id="footer-container">
+   <div id="footer">
+<!--
+    <ul id="badge-list">
+     <li><a href="http://sourceforge.net/donate/index.php?group_id=4141"><img src="http://images.sourceforge.net/images/project-support.jpg" width="88" height="32" border="0" alt="Support This Project" /></a></li>
+     <li><a href="http://www.opennms.com/"><img src="http://www.opennms.org/images/onmsgroup.jpg" alt="Commercial OpenNMS Support"></a></li>
+     <li><a href="http://www.opennms.it/"><img src="http://www.opennms.org/images/opennms-it.png" alt="OpenNMS Italia"></a></li>
+     <li><a href="http://sourceforge.net/projects/opennms"><img src="http://sflogo.sourceforge.net/sflogo.php?group_id=4141&type=13" width="120" height="30" border="0" alt="Get OpenNMS at SourceForge.net. Fast, secure and Free Open Source software downloads" /></a></li>
+     <li><a href="http://www.gambitcomm.com/site/mainindex.html"><img src="http://www.opennms.org/images/gambit.jpg" alt="Our Network Simulator"></a></li>
+     <li><a href="http://www.yourkit.com/"><img src="http://www.opennms.org/images/yjp.gif" alt="Our Java Profiler"></a></li>
+     <li><a href="http://www.mediawiki.org/"><img src="http://www.opennms.org/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" /></a></li>
+    </ul>
+-->
+
+    <ul id="footer-menu">
+     <li><a href="http://www.opennms.org/about">About OpenNMS</a> |</li>
+<li><a href="http://www.opennms.org/get-opennms">Get OpenNMS</a> |</li>
+<li><a href="http://www.opennms.org/get-support">Get Support</a> |</li>
+<li><a href="http://www.opennms.org/get-involved">Get Involved</a> |</li>
+<li><a href="http://www.opennms.org/get-stuff">Get Stuff</a> </li>    </ul>
+
+    <hr>
+
+
+    
+   </div>
+  </div>
+
+  <script type="text/javascript" src="wp-embed.min.js"></script>
+ 
+
+</body>
+</html>
