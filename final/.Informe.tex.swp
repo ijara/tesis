@@ -70,8 +70,9 @@
 		Su principal producto es la plataforma de para la creación de avisos clasificados en tiempo real, que funciona en plataforma web, android y IOS.
 			\subsection{Antecedentes}
 				\subsubsection{Misión}
-					Ser un nexo entre personas y organizaciones interesadas en ofrecer productos y/o servicios a través de una plataforma en tiempo real de avisos clasificados en la Región Metropolitana, Chile.
+					Ser un nexo entre personas y organizaciones interesadas en ofrecer productos y/o servicios a través de una plataforma de avisos clasificados en tiempo real, para habitantes de la Región Metropolitana, Chile.
 				\subsubsection{Visión}
+				Ser una empresa latinoamericana líder en difusión de avisos clasificados, aprovechando las tecnologías disponibles para ofrecer un servicio de calidad y funcionar en tiempo real, con el fín de que el producto listado efectivamente se encuentra disponible.
 					Los empleados trabajan para hacer de lotenemos:
 						\begin{itemize}
 							\item Una empresa líder en el país en avisos clasificados.
@@ -153,8 +154,7 @@
 			\subsection{Evaluación}
 				Al momento de evaluar soluciones, se toman en cuenta distintas opciones y parametros y se selecciona la solución que cubra las necesidades de la problematica. se utilizará una escala de 1 a 3, donde 1 no cumple y 3 cumple a cabalidad.
 				\subsubsection{Factibilidad Técnica}
-				Al realizar una evaluación técnica, el principal foco es demostrar que el negocio puede ponerse en marcha y mantenerse, mostrando evicendias de que se ha planeado cuidadosamente. Se creará una tabla con el detalle de cada propuesta de solución y se usará la que cubra en mayor medida las necesidades. Se colocará una nota de 1 a 10
-				
+				Al realizar una evaluación técnica, el principal foco es demostrar que el negocio puede ponerse en marcha y mantenerse, mostrando evicendias de que se ha planeado cuidadosamente. Se creará una tabla con el detalle de cada propuesta de solución y se usará la que cubra en mayor medida las necesidades. Se colocará una nota de 1 a 10.
 				\begin{tabular}{|c|c|c|c|}
 \hline
 	 & Meteor & PHP & Apache Cordova\\
@@ -208,7 +208,7 @@
 							\item Modulos sistema:
 								\subitem Guardado de datos: Se reciben los datos en formato JSON y son ingresados en la Base de Datos.
 								\subitem Entrega de información: Los datos serán entregados en formato JSON al aplicativo.
-							\item Modulos Plataforma WEB
+							\item Modulos Plataforma
 								\subitem Información General
 									\subsubitem Información de la organización: Aquí se datallan los datos de la organización.
 								\subitem Usuario Registrado
@@ -234,8 +234,8 @@
 							\end{itemize}
 						\subsubsection{Exclusiones}
 							\begin{itemize}
-								\item La empresa no se hace responsable por fraudes o situaciones legales.
-								\item La empresa entregará toda la información relevante a autoridades sobre el tema.
+								\item La empresa no se hace responsable por fraudes o situaciones ilegales producidas por terceros.
+								\item La empresa entregará toda la información que se posea a las autoridades para investigaciones.
 								\item La mesa de ayuda solo funcionará en horario de oficina.
 								\item No se verifican cambios en los datos de las organizaciones ni clientes.
 							\end{itemize}
