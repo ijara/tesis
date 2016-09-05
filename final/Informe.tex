@@ -1,4 +1,4 @@
-\documentclass[letterpaper,openright,10pt,twoside]{report}
+\documentclass[letterpaper,openright,10pt,oneside]{report}
 
 \usepackage[spanish,activeacute]{babel}
 \usepackage[utf8]{inputenc}
@@ -27,7 +27,7 @@
 
 \begin{document}
 %aqui va la portada	
-\includepdf[pages=1-2]{Portada.pdf}
+\includepdf[pages=1]{Portada.pdf}
 %% introducción
 
 
@@ -155,7 +155,11 @@
 				Al momento de evaluar soluciones, se toman en cuenta distintas opciones y parametros y se selecciona la solución que cubra las necesidades de la problematica. se utilizará una escala de 1 a 3, donde 1 no cumple y 3 cumple a cabalidad.
 				\subsubsection{Factibilidad Técnica}
 				Al realizar una evaluación técnica, el principal foco es demostrar que el negocio puede ponerse en marcha y mantenerse, mostrando evicendias de que se ha planeado cuidadosamente. Se creará una tabla con el detalle de cada propuesta de solución y se usará la que cubra en mayor medida las necesidades. Se colocará una nota de 1 a 10.
-				\begin{tabular}{|c|c|c|c|}
+
+%%   https://en.wikibooks.org/wiki/LaTeX/Tables#Text_wrapping_in_tables
+				\begin{table}[h]
+					\centering
+						\begin{tabular}{|c|c|c|c|}
 \hline
 	 & Meteor & PHP & Apache Cordova\\
 \hline
@@ -173,7 +177,15 @@
 	Total & 13 & 6 & 12 \\
 \hline
 \end{tabular}
+	\caption{Factibilidad Técnica}
+	\label{tab:factibilidadtecnica}
+				\end{table}
+				
+				
 
+
+				%% Esto es lo que falta!!!!!!!
+				
 				
 				\subsubsection{Factibilidad Económica}
 				\subsubsection{Factibilidad Implementativa}
@@ -239,7 +251,9 @@
 								\item La mesa de ayuda solo funcionará en horario de oficina.
 								\item No se verifican cambios en los datos de las organizaciones ni clientes.
 							\end{itemize}
-			%%	
+			
+\begin{comment}
+	
 		\section{Beneficios de la solución}
 		\section{Desarrollo Técnico}
 			\subsection{Marco de desarrollo}
@@ -262,4 +276,8 @@
 \part{Bibliografía}
 	%% http://www.trabajo.com.mx/factibilidad_tecnica_economica_y_financiera.htm
 \part{Anexos y Apéndices}
+
+\end{comment}	
+	
+
 \end{document}
