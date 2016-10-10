@@ -1,4 +1,5 @@
 \documentclass[letterpaper,openright,10pt,oneside]{report}
+
 \usepackage[spanish,activeacute]{babel}
 \usepackage[utf8]{inputenc}
 \usepackage[letterpaper,width=150mm,top=25mm,bottom=25mm]{geometry}
@@ -13,10 +14,7 @@
 \usepackage{float} % para usar [H]
 \usepackage{graphicx}
 \usepackage{longtable}
-\usepackage[hidelinks]{hyperref}
-\usepackage{booktabs,tabularx}
-\usepackage{amsmath}
-\usepackage{multirow}
+\usepackage{hyperref}
 
 
 \pagestyle{fancy}
@@ -372,13 +370,13 @@ Además, de los ingresos, también es necesario destacar los egresos que posee l
 \hline
 	Sueldo Ingeniero en Informática & - & \$12.000.000\\
 \hline
-	Sueldo Captador & - & \$2.400.000\\
+	Sueldo aptador & - & \$2.400.000\\
 \hline
-	Cloud DCV Virtual Negocio Claro Empresas & - & \$875.880\\
+	Cloud DCV Virtual Negocio & - & \$875.880\\
 \hline
-	Oficina Virtual VirtualPyme.cl & - & \$147.000\\
+	Oficina Virtual & - & \$147.000\\
 \hline
-	Presupuesto anual publicidad & - & \$240.000\\
+	Publicidad & - & \$240.000\\
 \hline
 	Laptop Ingeniero en Informatica & \$421.090 & -\\
 \hline
@@ -394,53 +392,13 @@ Además, de los ingresos, también es necesario destacar los egresos que posee l
 	\item La cantidad de dinero a invertir en publicidad será baja durante los primeros meses, y alta en años subsiguientes.
 	\item La oficina será virtual, lo que evita calcular depreciación de productos e infraestructura.
 	\item La plataforma funcionará en un CLOUD Virtual, lo que evita calcular depreciación de productos e infraestructura.
-	\item Los precios de hardware fueron obtenidos en el mercado formal, el IVA está incluido y fueron extraídos en Abril de 2016.
+	\item Los precios de hardware fueron obtenidos en el mercado formal, el IVA está incluido y fueron extraídos en Abril de 2016. %Insertar tabla con descripcion de hardware%
 	\item Los sueldos están en base a encuestas y la situación actual Chilena (mifuturo.cl - Junio 2016)\footnote{\url{http://www.mifuturo.cl/index.php/futuro-laboral/buscador-por-carrera?tecnico=false&cmbareas=10&cmbinstituciones=2}}%citar de verdad%
 \end{itemize}
-\begin{table}[H]
-\centering
-\scalebox{0.84}{
-\begin{tabular}{|l|l|l|l|l|l|l|}
-\hline
- & Inicial & 2017 & 2018 & 2019 & 2020 & 2021 \\ \hline
-Ingresos &  &  &  &  &  &  \\ \hline
-Cuentas Premium & \$ - & \$ 750.000 & \$ 1.360.000 & \$ 2.500.000 & \$ 4.530.000 & \$ 8.220.000 \\ \hline
-Marcas & \$ - & \$ 214.500 & \$ 1.158.750 & \$ 6.222.000 & \$ 33.307.500 & \$ 178.227.000 \\ \hline
-Capital & \$ 20.000.000 & \$ - & \$ - & \$ - & \$ - & \$ - \\ \hline
- &  &  &  &  &  &  \\ \hline
-Ingresos Anual & \$ 20.000.000 & \$ 964.500 & \$ 2.518.750 & \$ 8.722.000 & \$ 37.837.500 & \$ 186.447.000 \\ \hline
- &  &  &  &  &  &  \\ \hline
-Egresos &  &  &  &  &  &  \\ \hline
-Cloud DCV & \$ - & \$ 875.880 & \$ 875.880 & \$ 875.880 & \$ 875.880 & \$ 875.880 \\ \hline
-Oficina Virtual & \$ - & \$ 147.000 & \$ 147.000 & \$ 147.000 & \$ 147.000 & \$ 147.000 \\ \hline
-Publicidad & \$ - & \$ 240.000 & \$ 240.000 & \$ 240.000 & \$ 240.000 & \$ 240.000 \\ \hline
-Sueldos & \$ - & \$ 14.400.000 & \$ 14.400.000 & \$ 16.800.000 & \$ 19.200.000 & \$ 60.000.000 \\ \hline
-Hardware & \$ - & \$ 621.080 & \$ - & \$ 199.990 & \$ 199.990 & \$ 3.399.830 \\ \hline
-Desarrollo &  & \$ 5.000.000 & \$ 5.000.000 & \$ - & \$ - & \$ - \\ \hline
- &  &  &  &  &  &  \\ \hline
-Egresos Anual & \$ - & \$ 21.283.960 & \$ 20.662.880 & \$ 18.262.870 & \$ 20.662.870 & \$ 64.662.710 \\ \hline
- &  &  &  &  &  &  \\ \hline
 
-Ingresos Netos & -\$ 20.000.000 & -\$ 20.319.460 & -\$ 18.144.130 & -\$ 9.540.870 & \$ 17.174.630 & \$ 121.784.290 \\ \hline
-\end{tabular}
-}
-\caption{Flujo neto de fondos}
-\label{tabla:flujonetodefondos}
-\end{table}
-Lo que entrega los siguientes valores financieros:
-\begin{itemize}
-	\item TIR: 21\%
-	\item VAN: \$18.411.337
-\end{itemize}
-El porcentaje minimo de rentabilidad esta calculado en base a la siguiente formula:
-\[ E(r_i) = r_f+\beta_m(E(r_m)-r_f) \] Donde $$E(r_i)\text{ es la tasa de rendimiento esperada de capital sobre el activo } i $$
-$$\beta_m \text{ es el beta (cantidad de riesgo con respecto al Portafolio de Mercado) }$$ 
-$$r_m\text{ es rendimiento del mercado. }$$
-$$r_f\text{ es rendimiento de un activo libre de riesgo. }$$
-Basandonos en los datos de Septiembre de 2016 %inserttar referencia
-, la tasa es:
-$$E(r_i)=(0.03+1.3(0.1-0.03))*100\%$$
-$$E(r_i)=12\%$$ Lo que significa que el proyecto es viable economicamente, no solo logrando un 12\% de rentabilidad, sinó que además, se gana un 21\% del valor proyectado con una ganancia neta de \$18.411.337.
+
+
+						%insertar un flujo de caja%
 				\subsubsection{Factibilidad Implementativa}
 				
 				Los usuarios que utilizarán el software serán cuatro tipos principalmente:
@@ -518,66 +476,6 @@ $$E(r_i)=12\%$$ Lo que significa que el proyecto es viable economicamente, no so
 			\subsection{Conclusiones}
 				Al elegir una solución usando el framework ``meteor", permite realizar con solo un código fuente, una plataforma que se conectará a una base de datos NoSQL, a través de un aplicativo WEB, uno compatible con Android y finalmente, uno compatible con IOS, usando metodologías usadas actualmente para crear software en poco tiempo de desarrollo.
 				Al observar el indicador TIR y el VAR, en el peor de los casos aseguramos que existe ganancia al llevar a cabo este proyecto, ya que existe un mercado en fuerte alza y al mismo tiempo, supondría un cambio de paradigma al momento de adquirir un producto o servicio a través de internet.
-			\subsection{Modelo canvas}
-			El modelo canvas es una herramienta que permite detectar sistemáticamente los elementos que generan valor al negocio. Dentro de este paradigma, la única regla fija que hay es la de no auto inhibirse y acoger todas las ideas que emanen del proceso. Consiste en dividir el proyecto en nueve módulos básicos que explican el proceso de cómo una empresa genera ingresos. Estos nueve bloques interactúan entre sí para obtener como resultado diferentes formas de hacer rentable la empresa. Como resultado de lo anterior, se clarifican los canales de distribución y las relaciones entre las partes, se determinan los beneficios e ingresos y especifican los recursos y actividades esenciales que determinan los costos más importantes. Finalmente, se pueden determinar las alianzas necesarias para operar.\footnote{esto es una cita de http://www.innovacion.cl/reportaje/metodologia-canvas-la-nueva-forma-de-agregar-valor/}. La aplicación de este modelo aparece en el Caudro ~\ref{tabla:modelocanva}
-			\begin{table}[H]
-\centering
-\begin{tabular}{|p{2cm}|p{3cm}|p{2.5cm}|p{2.5cm}|p{4cm}|}
-\hline
-	\multirow{2}{2cm}{
-	\textbf{Socios clave}\newline \newline
-	Incubadoras\newline
-	Claro Chile\newline
-	Sernac \newline
-	Cámara Chilena de comercio \newline
-	Corfo} & 
-
-	\textbf{Actividades clave}\newline\newline
-	Mantener operativa la plataforma.\newline
-	Crear nuevos productos.\newline
-	Mantener la seguridad de la plataforma.\newline
-	Comunicación directa con el cliente.
-	 & \textbf{Propuesta de valor}\newline\newline
-	 Aumento en las ventas\newline
-	 Reducción de los tiempos de venta\newline
-	 Seguridad de la información\newline
-	 Aumento de la visibilidad.
-	 
-	 & \textbf{Relaciones con clientes}\newline\newline
-	 Servicios de asistencia\newline
-	 Resolución de conflictos\newline
-	 Evaluación del servicio
-	 
-	  & \textbf{Segmentos de clientes}\newline\newline
-	  -Personas naturales entre 21 a 45 años, habitantes del territorio nacional Chileno, que adquieren regularmente productos y servicios a través de internet. \newline
-	  -Micro, pequeñas y medianas empresas, ubicadas en el territorio nacional, ofrezcan sus producto y/o servicios a través de internet. 
-	  \\
-\hline
-	 & \textbf{Recursos clave}\newline\newline
-	 -Plataforma Robusta\newline
-	 -Equipos de prueba\newline
-	 -Bases de datos\newline
-	 -Equipos para desarrollos\newline
-	 -Desarrolladores\newline
-	 -Captadores\newline
-	 -Mantenedores
-	  &  & \textbf{Canales}\newline\newline
-	  Evaluaciones\newline
-	  Publicidad & \\
-\hline
-	\multicolumn{3}{|p{6cm}|}{\textbf{Estructura de costos}\newline\newline
-	-Mantención de sistemas\newline
-	-Pago a trabajadores\newline
-	-Pago de impuestos}
-	   & 
-	  \multicolumn{2}{|p{4cm}|}{
-	   \textbf{Fuentes de ingresos}\newline\newline -Usuarios destacados\newline -Marcas o destacadores\newline -Aportes de terceros}\\
-\hline
-\end{tabular}
-
-	\caption{Modelo Canvas}
-	\label{tabla:modelocanva}
-\end{table}
 			\subsection{Análisis FODA}
 				\subsubsection{Fortalezas}
 					\begin{itemize}
@@ -606,69 +504,9 @@ $$E(r_i)=12\%$$ Lo que significa que el proyecto es viable economicamente, no so
 \end{itemize}
 			\subsection{Matriz FODA}
 			% matriz foda (cosas a realizar)
-\begin{table}[H]
-\centering
-	\begin{tabular}{|p{2.5cm}|p{5cm}|p{5cm}|}
-\hline
-	& Fortalezas & Debilidades\\
-\hline
-	Oportunidades & 
-	- Aprovechar el creciente mercado con una agresiva estrategia de marketing.\newline
-	- Captar a usuarios de movil.\newline
-	- Obtener beneficios con las micro transacciones.\newline	
- & 	- Ofrecer la plataforma como una revolucion en el mercado. \newline
- \\
-\hline
-	Amenazas & 
-	- Aprovechar la simplicidad de la interfaz.\newline
-	- Seguir la estrategia multiplataforma para atraer nuevos clientes.\newline
-	- Ofrecer precios atractivos a pequeñas empresas.\newline
-	- Ofrecer sistema a personas con necesidades de venta inmediata.	
-	 & 
-	 - Buscar formas para destacarse de la competencia.\newline
-	 - Reaccionar a la par del mercado.
-	 \\
-\hline
-\end{tabular}
-\caption{Matriz FODA}
-\label{tabla:matrizfoda}
-\end{table}
+
 			\subsection{Cinco Fuerzas de Porter}
-El modelo de las cinco fuerzas de Porter es una herramienta de gestión desarrollada por el profesor e investigador Michael Porter, que permite analizar una industria o sector, a través de la identificación y análisis de cinco fuerzas en ella.
-Siendo más específicos, esta herramienta permite conocer el grado de competencia que existe en una industria y, en el caso de una empresa dentro de ella, realizar un análisis externo que sirva como base para formular estrategias destinadas a aprovechar las oportunidades y/o hacer frente a las amenazas detectadas.
-Para destacarse en el medio, se tomarán las siguientes estrategias:
-							\subsubsection{Rivalidad entre competidores}
-							\begin{itemize}
-	\item Dotar de nuevas caracteristicas la plataforma.
-	\item Reducir los precios.
-	\item Centrarse en publicidad.
-	\item Crear nuevas marcas o destacadores.
-\end{itemize}
-\subsubsection{Amenaza de entrada de nuevos competidores}
-\begin{itemize}
-	\item Ofrecer mejores precios.
-	\item Instaurarse en todas las plataformas disponibles.
-	\item Ofrecer mejor servicio post-venta.
-\end{itemize}
-\subsubsection{Amenaza de ingreso de productos sustitutos}
-\begin{itemize}
-	\item Ofrecer al mercado el producto como la primera innovación.
-	\item Aumentar la calidad de las marcas.
-	\item Publicitar la calidad del servicio.
-	\item Enfocarse en los puntos unicos del servicio.
-\end{itemize}
-\subsubsection{Poder de negociación de los proveedores}
-\begin{itemize}
-	\item Crear alianzas estrategicas.
-	\item No externalizar la creación de marcas.
-\end{itemize}
-\subsubsection{Poder de negociación de los consumidores}
-\begin{itemize}
-	\item Diferenciarse de la competencia.
-	\item Entregar un mejor servicio de venta.
-	\item Ofrecer promociones post venta.
-	\item Invertir en personal de atención al cliente.
-\end{itemize}
+							%agregar
 			\subsection{Cadena de valor}
 \begin{table}[H]
 \centering
@@ -676,11 +514,11 @@ Para destacarse en el medio, se tomarán las siguientes estrategias:
 	\hline
 	\multicolumn{5}{|p{10cm}|}{Infraestructura de la empresa: Oficina Central, contabilidad, centro de reclutamiento, legal, marketing.}\\
 	\hline
-	\multicolumn{5}{|p{10cm}|}{R.R.H.H: Selección y contratación, formación, desarrollo, política salarial y laboral.}\\
+	\multicolumn{5}{|p{10cm}|}{R.R.H.H: Selección y contratación, formación, desarrollo, politica salarial y laboral.}\\
 	\hline
 	\multicolumn{5}{|p{10cm}|}{T.I: Investigación de mercado, sistema online, inversiones en equipos para desarrollos.}\\
 	\hline
-	\multicolumn{5}{|p{10cm}|}{Compras: VPS, fibra óptica, computadoras para desarrollos, carteles y publicidad.}\\
+	\multicolumn{5}{|p{10cm}|}{Compras: VPS, fibra optica, computadoras para desarrollos, carteles y publicidad.}\\
 	\hline
 	Logística Interna: \newline \newline Almacena- miento de datos.
 	\newline Sistemas contables.
@@ -691,9 +529,6 @@ Para destacarse en el medio, se tomarán las siguientes estrategias:
 \caption{Cadena de Valor}
 \label{tabla:cadenadevalor}
 \end{table}
-
-
-
 			\subsection{Diferenciación}
 Uno de los factores principales para diferenciarnos de otras organizaciones, es el centralizarnos en el funcionamiento en tiempo real. Ofreciendo productos que caducan al poco tiempo, lo que obliga al vendedor a mantenerse conectado en la plataforma el mayor tiempo posible, u ofreciendo marcas que permitan destacar el producto un tiempo mayor al convencional.
 Además, el sistema integrado de mensajería no es ofrecido por nuestros competidores directos, factor clave de diferenciación.
@@ -716,12 +551,6 @@ Además, el sistema integrado de mensajería no es ofrecido por nuestros competi
 		\newpage	
 		\section{Análisis}
 			\subsection{Modelo conceptual de datos}
-			El análisis de datos se realizará utilizando un modelo denominado \textbf{Entidad-Relación} exhibido en la Figura~\ref{imagen:entidadrelacion}, el cual permite describir a través de imágenes las relaciones entre conjuntos de datos y como estos se relacionan entre si, formando las conexiones necesarias. Este modelo permite visualizar los componentes que formarán la plataforma y aunque esté diseñado para bases de datos relacionales; se pueden sacar conclusiones en como se describirán las colecciones en nuestra base de datos no relacional. Elementos como vendedor y clientes se relacionan en base a mensajes, los cuales son los avisos clasificados a desplegar en la pagina; y a tags, que son marcas que pueden ser agregadas al mensaje para destacarlo del resto. Al mismo tiempo, este mensaje permite la comunicación directa entre oferente y comprador, con el fin  de llegar a un acuerdo al precio y al modo de entrega del producto en cuestión. La sección de administración, permite acceder a datos de los clientes y de los vendedores. Para asegurar la confidencialidad de los datos y de las personas, el área administrativa no tiene un canal directo para acceder al sistema de mensajería integrado, con el fin de mantener confidencial la transacción. En caso de que se requiera, existe la posibilidad de acceder al historial, previo consentimiento de una de las partes.\begin{figure}[htp]
-\centering
-\includegraphics[scale=0.50]{/home/ijara/Dropbox/TESIS/Diagramas/er.png}
-\caption{Diagrama Entidad-Relación}
-\label{imagen:entidadrelacion}
-\end{figure}
 			\subsection{Modelo de procesos (DFD, DFA)}
 			\subsection{Especificación de requerimientos (Funciones, datos, interfaz)}
 			\subsection{Especificación de requisitos (Restricciones técnicas, funcionales, de implementación)}
@@ -734,7 +563,7 @@ Además, el sistema integrado de mensajería no es ofrecido por nuestros competi
 		\section{Plan de Pruebas}
 			\subsection{Prueba del sistema}
 			\subsection{Prueba de aceptación}
-	\chapter{Presentación de Datos y Análisis de Resultados}
+	\chapter{Presentación de Datos y Ánalisis de Resultados}
 \part{Conclusiones y recomendaciones}
 \part{Referencias y notas explicativas}
 \part{Bibliografía}
